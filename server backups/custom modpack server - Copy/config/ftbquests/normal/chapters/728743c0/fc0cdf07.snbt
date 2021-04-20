@@ -1,0 +1,18 @@
+{
+	x: -7.0d,
+	y: 1.5d,
+	can_repeat: true,
+	size: 0.75d,
+	tasks: [{
+		uid: "0a3c215a",
+		type: "item",
+		items: [{
+			item: "minecraft:hay_block"
+		}]
+	}],
+	rewards: [{
+		uid: "c3a34f00",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "nobody likes a creeper 4",
+	x: 2.0d,
+	y: 1.0d,
+	dependencies: [
+		"7fabc95b"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "17da8854",
+		type: "kill",
+		icon: "minecraft:skull 1 4",
+		entity: "minecraft:creeper",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "441b5956",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "31f03515",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "2d743d96",
+		type: "item",
+		item: "chancecubes:chance_icosahedron"
+	},
+	{
+		uid: "3dd36650",
+		type: "loot",
+		table: 10
+	}]
+}

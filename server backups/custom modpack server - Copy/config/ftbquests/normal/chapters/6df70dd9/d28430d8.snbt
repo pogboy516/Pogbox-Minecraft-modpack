@@ -1,0 +1,26 @@
+{
+	x: 7.0d,
+	y: 3.0d,
+	dependencies: [
+		"a6d5df30"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "297cd63e",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutswineherder"
+		}]
+	}],
+	rewards: [{
+		uid: "b66d82c7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "04a0bbfe",
+		type: "item",
+		item: "lootbags:itemlootbag 1 1"
+	}]
+}

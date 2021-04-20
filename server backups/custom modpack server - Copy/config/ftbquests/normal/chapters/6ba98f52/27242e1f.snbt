@@ -1,0 +1,23 @@
+{
+	x: -0.5d,
+	y: 0.0d,
+	dependencies: [
+		"0d2f71fa"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "2f35ee3c",
+		type: "item",
+		items: [{
+			item: "buildcraftcore:marker_volume"
+		}],
+		count: 15L,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "4ba0ad1c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

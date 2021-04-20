@@ -1,0 +1,21 @@
+{
+	icon: "thaumcraft:banner_crimson_cult",
+	x: 6.0d,
+	y: -1.2d,
+	dependencies: [
+		"3971250c"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "fdd348db",
+		type: "stat",
+		title: "Talked to villagers",
+		stat: "stat.talkedToVillager",
+		value: 100
+	}],
+	rewards: [{
+		uid: "fa649148",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

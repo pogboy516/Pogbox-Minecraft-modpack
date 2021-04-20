@@ -1,0 +1,26 @@
+{
+	x: -3.0d,
+	y: -6.5d,
+	dependencies: [
+		"c6643c0b"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "3a087eaf",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	}],
+	rewards: [{
+		uid: "c959f6f7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ada582a6",
+		type: "loot",
+		table: 5
+	}]
+}

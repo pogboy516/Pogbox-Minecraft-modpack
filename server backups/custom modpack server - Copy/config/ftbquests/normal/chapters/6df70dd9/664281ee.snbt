@@ -1,0 +1,46 @@
+{
+	title: "Put them to work",
+	x: 4.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "90b158fb",
+		type: "item",
+		items: [{
+			item: "minecraft:stone"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "d60137fa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}],
+		count: 128L
+	},
+	{
+		uid: "170131b3",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat"
+		}],
+		count: 256L
+	}],
+	rewards: [{
+		uid: "4929b8bc",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

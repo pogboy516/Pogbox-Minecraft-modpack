@@ -1,0 +1,28 @@
+{
+	title: "friend of the people",
+	x: -6.0d,
+	y: 1.5d,
+	dependencies: [
+		"138ef573"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "bbf80eb5",
+		type: "kill",
+		title: "murder villagers",
+		icon: "minecraft:wooden_door",
+		entity: "minecraft:villager",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "c32d0446",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "9c42f556",
+		type: "item",
+		item: "dungeontactics:bag_ore"
+	}]
+}

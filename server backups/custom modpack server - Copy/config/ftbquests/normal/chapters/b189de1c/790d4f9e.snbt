@@ -1,0 +1,29 @@
+{
+	x: 3.5d,
+	y: -0.5d,
+	dependencies: [
+		"0d682df8"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "48845afc",
+		type: "item",
+		items: [{
+			item: "ebwizardry:master_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "6c418999",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c8dbfee4",
+		type: "loot",
+		table: 11
+	}]
+}

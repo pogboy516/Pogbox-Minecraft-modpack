@@ -1,0 +1,32 @@
+{
+	title: "burn baby burn 3",
+	x: -2.5d,
+	y: 4.0d,
+	dependencies: [
+		"391b8d94"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "4f44d861",
+		type: "kill",
+		icon: "minecraft:blaze_powder",
+		entity: "minecraft:blaze",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "df8e7ca1",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "5831d158",
+		type: "item",
+		item: "chancecubes:chance_icosahedron"
+	},
+	{
+		uid: "50c6a1cc",
+		type: "loot",
+		table: 10
+	}]
+}

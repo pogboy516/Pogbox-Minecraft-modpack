@@ -1,0 +1,16 @@
+{
+	x: -4.0d,
+	y: -1.0d,
+	size: 1.5d,
+	tasks: [{
+		uid: "da60ce6b",
+		type: "checkmark",
+		title: "the adventure begins",
+		icon: "tconstruct:book"
+	}],
+	rewards: [{
+		uid: "4556cf86",
+		type: "item",
+		item: "tconstruct:book"
+	}]
+}

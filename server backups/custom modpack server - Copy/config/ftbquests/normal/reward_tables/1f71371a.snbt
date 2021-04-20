@@ -1,0 +1,169 @@
+{
+	title: "bag bag",
+	icon: "usefulbackpacks:backpack",
+	loot_size: 1,
+	rewards: [{
+		item: "usefulbackpacks:backpack",
+		weight: 4
+	},
+	{
+		item: {
+			id: "usefulbackpacks:backpack",
+			tag: {
+				display: {
+					color: 13061821
+				}
+			}
+		},
+		weight: 4
+	},
+	{
+		item: {
+			id: "usefulbackpacks:backpack",
+			tag: {
+				display: {
+					color: 8439583
+				}
+			}
+		},
+		weight: 4
+	},
+	{
+		item: {
+			id: "usefulbackpacks:backpack",
+			tag: {
+				display: {
+					color: 10329495
+				}
+			}
+		},
+		weight: 4
+	},
+	{
+		item: {
+			id: "usefulbackpacks:backpack",
+			tag: {
+				display: {
+					color: 3949738
+				}
+			}
+		},
+		weight: 4
+	},
+	{
+		item: {
+			id: "usefulbackpacks:backpack",
+			tag: {
+				display: {
+					color: 11546150
+				}
+			}
+		},
+		weight: 4
+	},
+	{
+		item: {
+			id: "usefulbackpacks:backpack",
+			tag: {
+				display: {
+					color: 3847130
+				}
+			}
+		},
+		weight: 4
+	},
+	{
+		item: {
+			id: "usefulbackpacks:backpack",
+			tag: {
+				display: {
+					color: 15961002
+				}
+			}
+		},
+		weight: 4
+	},
+	{
+		item: "usefulbackpacks:backpack 1 1",
+		weight: 3
+	},
+	{
+		item: {
+			id: "usefulbackpacks:backpack",
+			tag: {
+				display: {
+					color: 13061821
+				}
+			},
+			Damage: 1s
+		},
+		weight: 3
+	},
+	{
+		item: {
+			id: "usefulbackpacks:backpack",
+			tag: {
+				display: {
+					color: 8439583
+				}
+			},
+			Damage: 2s
+		}
+	},
+	{
+		item: {
+			id: "usefulbackpacks:backpack",
+			tag: {
+				display: {
+					color: 10329495
+				}
+			},
+			Damage: 2s
+		}
+	},
+	{
+		item: {
+			id: "usefulbackpacks:backpack",
+			tag: {
+				display: {
+					color: 11546150
+				}
+			},
+			Damage: 1s
+		},
+		weight: 3
+	},
+	{
+		item: {
+			id: "usefulbackpacks:backpack",
+			tag: {
+				display: {
+					color: 15961002
+				}
+			},
+			Damage: 2s
+		}
+	},
+	{
+		item: {
+			id: "usefulbackpacks:backpack",
+			tag: {
+				display: {
+					color: 1481884
+				}
+			},
+			Damage: 2s
+		}
+	},
+	{
+		item: {
+			id: "usefulbackpacks:backpack",
+			tag: {
+				display: {
+					color: 3847130
+				}
+			},
+			Damage: 2s
+		}
+	}]
+}

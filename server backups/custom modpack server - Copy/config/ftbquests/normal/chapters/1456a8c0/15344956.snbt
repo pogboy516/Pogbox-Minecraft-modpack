@@ -1,0 +1,32 @@
+{
+	x: -8.0d,
+	y: -4.0d,
+	tasks: [{
+		uid: "4fbaf779",
+		type: "stat",
+		title: "Skulls for the skull throne!",
+		icon: "bountifulbaubles:trinketobsidianskull",
+		stat: "stat.deaths",
+		value: 50
+	}],
+	rewards: [{
+		uid: "72b08009",
+		type: "item",
+		item: "minecraft:diamond_helmet"
+	},
+	{
+		uid: "dfb25754",
+		type: "item",
+		item: "minecraft:diamond_chestplate"
+	},
+	{
+		uid: "fb1eb73c",
+		type: "item",
+		item: "minecraft:diamond_leggings"
+	},
+	{
+		uid: "032b0461",
+		type: "item",
+		item: "minecraft:diamond_boots"
+	}]
+}

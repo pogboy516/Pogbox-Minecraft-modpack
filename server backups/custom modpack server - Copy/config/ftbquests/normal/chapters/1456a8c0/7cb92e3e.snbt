@@ -1,0 +1,43 @@
+{
+	title: "Do you need the leather?",
+	icon: "minecraft:leather",
+	x: -6.0d,
+	y: -4.5d,
+	dependencies: [
+		"14071969"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "103b676c",
+		type: "kill",
+		title: "murder cows",
+		icon: "inventorypets:cow_pet",
+		entity: "minecraft:cow",
+		value: 25L
+	},
+	{
+		uid: "8bea5e25",
+		type: "item",
+		items: [{
+			item: "minecraft:leather"
+		}],
+		count: 20L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "8cc6d7c4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c4c30420",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "5dcba85b",
+		type: "xp",
+		xp: 100
+	}]
+}

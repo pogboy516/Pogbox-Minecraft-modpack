@@ -1,0 +1,38 @@
+{
+	title: "Got wood?",
+	x: -11.25d,
+	y: -2.5d,
+	shape: "rsquare",
+	text: [
+		"Time to punch some trees "
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "8474339f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f4705610",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "be97a8e2",
+		type: "loot",
+		table: 6
+	}]
+}

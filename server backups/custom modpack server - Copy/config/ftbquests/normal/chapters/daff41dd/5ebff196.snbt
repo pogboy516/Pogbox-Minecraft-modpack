@@ -1,0 +1,17 @@
+{
+	x: -5.0d,
+	y: -8.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"0bccc184"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "2348a48f",
+		type: "stat",
+		title: "Sail the seas",
+		stat: "stat.boatOneCm",
+		value: 1000
+	}]
+}

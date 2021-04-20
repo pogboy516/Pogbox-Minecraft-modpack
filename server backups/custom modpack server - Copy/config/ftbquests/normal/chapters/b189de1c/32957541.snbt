@@ -1,0 +1,25 @@
+{
+	x: 1.3499999999999999d,
+	y: 0.0d,
+	dependencies: [
+		"9c6280db"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.9d,
+	tasks: [{
+		uid: "84969cad",
+		type: "item",
+		items: [{
+			item: "ebwizardry:wizard_hat"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "734561ab",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

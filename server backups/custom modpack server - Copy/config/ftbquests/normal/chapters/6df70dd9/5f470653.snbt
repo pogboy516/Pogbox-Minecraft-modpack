@@ -1,0 +1,16 @@
+{
+	x: 4.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "2a81ce85",
+		type: "stat",
+		title: "trade with villagers",
+		stat: "stat.tradedWithVillager",
+		value: 50
+	}],
+	rewards: [{
+		uid: "ba7cbab0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

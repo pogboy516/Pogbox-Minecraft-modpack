@@ -1,0 +1,33 @@
+{
+	x: -3.0d,
+	y: -8.0d,
+	dependencies: [
+		"ac939c14"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "0ce71dd5",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9766e9bc",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "4bff69bf",
+		type: "item",
+		item: "lootbags:itemlootbag"
+	},
+	{
+		uid: "06eded84",
+		type: "loot",
+		table: 7
+	}]
+}

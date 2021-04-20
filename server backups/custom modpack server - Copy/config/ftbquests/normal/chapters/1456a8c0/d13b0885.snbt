@@ -1,0 +1,26 @@
+{
+	x: -8.4d,
+	y: 0.525d,
+	dependencies: [
+		"f49d02aa"
+	],
+	size: 1.05d,
+	tasks: [{
+		uid: "23788435",
+		type: "stat",
+		title: "Untouchable",
+		icon: "minecraft:diamond_sword",
+		stat: "stat.mobKills",
+		value: 500
+	}],
+	rewards: [{
+		uid: "1bd7d747",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "e6ca1458",
+		type: "item",
+		item: "lootbags:itemlootbag 1 11"
+	}]
+}

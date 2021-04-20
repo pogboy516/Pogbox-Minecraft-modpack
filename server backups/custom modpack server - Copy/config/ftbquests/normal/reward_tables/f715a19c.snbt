@@ -1,0 +1,258 @@
+{
+	title: "Godkiller Armor",
+	icon: {
+		id: "minecraft:diamond_chestplate",
+		tag: {
+			ench: [{
+				lvl: 4s,
+				id: 3s
+			},
+			{
+				lvl: 3s,
+				id: 7s
+			},
+			{
+				lvl: 3s,
+				id: 34s
+			},
+			{
+				lvl: 1s,
+				id: 70s
+			}],
+			RepairCost: 15,
+			display: {
+				Name: "Godkiller Chestplate"
+			}
+		}
+	},
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "minecraft:diamond_boots",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 54s
+				},
+				{
+					lvl: 3s,
+					id: 34s
+				}],
+				RepairCost: 7,
+				display: {
+					Name: "Godspeed Boots"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:diamond_sword",
+			tag: {
+				ench: [{
+					lvl: 5s,
+					id: 16s
+				},
+				{
+					lvl: 3s,
+					id: 21s
+				},
+				{
+					lvl: 3s,
+					id: 22s
+				}],
+				RepairCost: 7,
+				display: {
+					Name: "Godkiller Sword"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:diamond_boots",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 34s
+				},
+				{
+					lvl: 4s,
+					id: 3s
+				},
+				{
+					lvl: 3s,
+					id: 7s
+				},
+				{
+					lvl: 1s,
+					id: 70s
+				}],
+				RepairCost: 15,
+				display: {
+					Name: "Godkiller Boots"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:diamond_leggings",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 34s
+				},
+				{
+					lvl: 4s,
+					id: 3s
+				},
+				{
+					lvl: 3s,
+					id: 7s
+				},
+				{
+					lvl: 1s,
+					id: 70s
+				}],
+				RepairCost: 15,
+				display: {
+					Name: "Godkiller Leggings"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:diamond_chestplate",
+			tag: {
+				ench: [{
+					lvl: 4s,
+					id: 3s
+				},
+				{
+					lvl: 3s,
+					id: 7s
+				},
+				{
+					lvl: 3s,
+					id: 34s
+				},
+				{
+					lvl: 1s,
+					id: 70s
+				}],
+				RepairCost: 15,
+				display: {
+					Name: "Godkiller Chestplate"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:diamond_helmet",
+			tag: {
+				ench: [{
+					lvl: 4s,
+					id: 3s
+				},
+				{
+					lvl: 3s,
+					id: 7s
+				},
+				{
+					lvl: 3s,
+					id: 34s
+				},
+				{
+					lvl: 1s,
+					id: 70s
+				}],
+				RepairCost: 15,
+				display: {
+					Name: "Godkiller Helmet"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:diamond_boots",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 2s
+				},
+				{
+					lvl: 2s,
+					id: 34s
+				},
+				{
+					lvl: 1s,
+					id: 70s
+				}],
+				RepairCost: 7
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:diamond_helmet",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 34s
+				}],
+				RepairCost: 1
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:diamond_chestplate",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 34s
+				}],
+				RepairCost: 1
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:diamond_leggings",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 34s
+				},
+				{
+					lvl: 3s,
+					id: 83s
+				}],
+				RepairCost: 3
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:diamond_boots",
+			tag: {
+				ench: [{
+					lvl: 4s,
+					id: 0s
+				},
+				{
+					lvl: 3s,
+					id: 34s
+				},
+				{
+					lvl: 1s,
+					id: 70s
+				}]
+			}
+		}
+	}]
+}

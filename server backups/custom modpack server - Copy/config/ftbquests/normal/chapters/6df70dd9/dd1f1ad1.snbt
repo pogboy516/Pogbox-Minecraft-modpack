@@ -1,0 +1,21 @@
+{
+	x: 9.5d,
+	y: 1.5d,
+	dependencies: [
+		"a6d5df30"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "45151357",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutcomposter"
+		}]
+	}],
+	rewards: [{
+		uid: "e9498025",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

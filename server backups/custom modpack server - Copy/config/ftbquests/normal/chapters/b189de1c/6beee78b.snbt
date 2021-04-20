@@ -1,0 +1,26 @@
+{
+	x: -2.5d,
+	y: -2.0d,
+	dependencies: [
+		"af6bc789"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "409d4700",
+		type: "item",
+		items: [{
+			item: "ebwizardry:magic_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "0ee7a6bd",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "84555edf",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

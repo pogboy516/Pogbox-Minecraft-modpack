@@ -1,0 +1,25 @@
+{
+	x: 6.0d,
+	y: -0.4d,
+	dependencies: [
+		"afed0668"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "f9804eae",
+		type: "stat",
+		title: "Talked to villagers",
+		stat: "stat.talkedToVillager",
+		value: 1000
+	}],
+	rewards: [{
+		uid: "2367c57d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "e02b1885",
+		type: "item",
+		item: "chancecubes:chance_icosahedron"
+	}]
+}

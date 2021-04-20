@@ -1,0 +1,27 @@
+{
+	x: 0.0d,
+	y: -8.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"ac939c14"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "8ddf3151",
+		type: "kill",
+		icon: "minecraft:ender_pearl",
+		entity: "minecraft:enderman",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "94dbc8f1",
+		type: "item",
+		item: "inventorypets:enderman_pet"
+	},
+	{
+		uid: "732eb88e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

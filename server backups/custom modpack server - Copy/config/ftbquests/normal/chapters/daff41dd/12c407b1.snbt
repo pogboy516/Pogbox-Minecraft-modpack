@@ -1,0 +1,43 @@
+{
+	title: "I HATE SAND",
+	x: -2.0d,
+	y: -5.5d,
+	dependencies: [
+		"e2c057df"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "2d2d1790",
+		type: "item",
+		items: [{
+			item: "minecraft:sand"
+		}],
+		count: 100L,
+		consume_items: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b8571ff3",
+		type: "item",
+		items: [{
+			item: "minecraft:cactus"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "7c360be6",
+		type: "item",
+		item: "minecraft:diamond_shovel"
+	},
+	{
+		uid: "3da02cc3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "0cfbbbd3",
+		type: "item",
+		item: "lootbags:itemlootbag"
+	}]
+}

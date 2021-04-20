@@ -1,0 +1,45 @@
+{
+	title: "collecting supplies",
+	x: 0.0d,
+	y: -2.5d,
+	dependencies: [
+		"4dabb6d9"
+	],
+	tasks: [{
+		uid: "f8396134",
+		type: "item",
+		items: [{
+			item: "minecraft:clay_ball"
+		}],
+		count: 24L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c598da08",
+		type: "item",
+		items: [{
+			item: "minecraft:gravel"
+		}],
+		count: 24L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cbb694c5",
+		type: "item",
+		items: [{
+			item: "minecraft:sand"
+		}],
+		count: 24L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d30ba3dd",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "7b0ad56a",
+		type: "loot",
+		table: 0
+	}]
+}

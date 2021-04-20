@@ -1,0 +1,27 @@
+{
+	x: -3.0d,
+	y: -5.0d,
+	dependencies: [
+		"a55de1c3"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "9529cf43",
+		type: "kill",
+		icon: "minecraft:spider_eye",
+		entity: "minecraft:spider",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "3ef9fb03",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "3e0c25bd",
+		type: "loot",
+		table: 11
+	}]
+}

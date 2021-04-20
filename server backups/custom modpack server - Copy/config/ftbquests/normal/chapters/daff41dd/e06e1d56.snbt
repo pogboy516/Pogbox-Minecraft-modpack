@@ -1,0 +1,28 @@
+{
+	x: -6.5d,
+	y: -8.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"0bccc184"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "5c2e66ec",
+		type: "stat",
+		title: "RUN BOY RUN!",
+		icon: "ebwizardry:battlemage_boots_healing",
+		stat: "stat.sprintOneCm",
+		value: 100000
+	}],
+	rewards: [{
+		uid: "d6292f0e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "8bcdde34",
+		type: "random",
+		table: 2
+	}]
+}

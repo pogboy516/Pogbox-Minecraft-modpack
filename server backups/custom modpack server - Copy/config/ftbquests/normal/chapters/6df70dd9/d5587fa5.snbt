@@ -1,0 +1,22 @@
+{
+	x: 4.0d,
+	y: -4.0d,
+	dependencies: [
+		"8581c2bd"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "160e9d24",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutminer"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "f5aea8d5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

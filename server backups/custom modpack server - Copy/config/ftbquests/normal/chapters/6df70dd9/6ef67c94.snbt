@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	dependencies: [
+		"35f96587"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "116d06ad",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutstonesmeltery"
+		}]
+	}],
+	rewards: [{
+		uid: "4a77f4da",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c0ffc8eb",
+		type: "random",
+		table: 6
+	}]
+}

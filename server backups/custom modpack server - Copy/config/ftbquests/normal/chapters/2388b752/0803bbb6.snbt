@@ -1,0 +1,24 @@
+{
+	x: 3.5d,
+	y: -2.5d,
+	dependencies: [
+		"88912521"
+	],
+	tasks: [{
+		uid: "183174cd",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials"
+		}]
+	}],
+	rewards: [{
+		uid: "915a16bd",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "3137337c",
+		type: "item",
+		item: "lootbags:itemlootbag"
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -4.0d,
+	y: -7.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"14071969"
+	],
+	tasks: [{
+		uid: "b557d517",
+		type: "kill",
+		icon: {
+			id: "inventorypets:slime_pet",
+			tag: {
+				GiveItems: 1b
+			}
+		},
+		entity: "minecraft:slime",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "fbf51fb8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

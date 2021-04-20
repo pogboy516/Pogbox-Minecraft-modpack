@@ -1,0 +1,21 @@
+{
+	x: -10.0d,
+	y: -5.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "ce3e9006",
+		type: "item",
+		title: "trade for flesh",
+		icon: "minecraft:rotten_flesh",
+		items: [{
+			item: "minecraft:rotten_flesh"
+		}],
+		count: 50L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "82e6cc44",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

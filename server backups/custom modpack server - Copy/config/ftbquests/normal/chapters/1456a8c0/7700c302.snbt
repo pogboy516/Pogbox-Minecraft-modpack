@@ -1,0 +1,29 @@
+{
+	x: -1.875d,
+	y: -3.75d,
+	dependencies: [
+		"7b194be3"
+	],
+	hide: true,
+	dependency_requirement: "all_started",
+	hide_text_until_complete: true,
+	size: 1.25d,
+	tasks: [{
+		uid: "f7161412",
+		type: "kill",
+		title: "the walking dead 2",
+		icon: "minecraft:skull 1 2",
+		entity: "minecraft:zombie",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "98755286",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "e44773f5",
+		type: "random",
+		table: 5
+	}]
+}

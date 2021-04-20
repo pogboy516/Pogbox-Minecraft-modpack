@@ -1,0 +1,24 @@
+{
+	x: 5.0d,
+	y: -4.0d,
+	dependencies: [
+		"0803bbb6"
+	],
+	tasks: [{
+		uid: "38c53064",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	}],
+	rewards: [{
+		uid: "202ac93d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "4da747f2",
+		type: "item",
+		item: "lootbags:itemlootbag"
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "i quiet little village",
+	icon: "minecolonies:blockhutfield",
+	x: 6.0d,
+	y: -2.0d,
+	size: 0.8d,
+	tasks: [{
+		uid: "3671f0b0",
+		type: "stat",
+		stat: "stat.talkedToVillager",
+		value: 30
+	}],
+	rewards: [{
+		uid: "f959b578",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

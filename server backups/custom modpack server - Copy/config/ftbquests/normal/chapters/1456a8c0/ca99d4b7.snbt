@@ -1,0 +1,21 @@
+{
+	title: "withering away ",
+	x: 2.0d,
+	y: -3.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"f24d0a1a"
+	],
+	tasks: [{
+		uid: "a8c3b644",
+		type: "kill",
+		icon: "minecraft:skull 1 1",
+		entity: "minecraft:wither_skeleton",
+		value: 20L
+	}],
+	rewards: [{
+		uid: "377ed047",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

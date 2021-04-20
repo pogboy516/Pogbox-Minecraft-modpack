@@ -1,0 +1,28 @@
+{
+	x: 0.0d,
+	y: -3.75d,
+	dependencies: [
+		"7700c302"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "b6e34b49",
+		type: "kill",
+		title: "the walking dead 3",
+		icon: "minecraft:skull 1 2",
+		entity: "minecraft:zombie",
+		value: 75L
+	}],
+	rewards: [{
+		uid: "5fb51b5f",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "ce2cbaab",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

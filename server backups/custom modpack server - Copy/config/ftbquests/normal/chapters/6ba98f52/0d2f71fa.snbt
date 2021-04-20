@@ -1,0 +1,27 @@
+{
+	x: -1.5d,
+	y: -1.0d,
+	dependencies: [
+		"cea3faa9"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "c72bf5ed",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "0196d03b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "446eebcd",
+		type: "random",
+		table: 7
+	}]
+}

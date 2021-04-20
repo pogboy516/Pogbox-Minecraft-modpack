@@ -1,0 +1,115 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
+  ForgelinPlugin (Forgelin-1.8.4.jar)
+  MekanismCoremod (Mekanism-1.12.2-9.8.3.390.jar)
+  IvToolkit (IvToolkit-1.3.3-1.12.jar)
+  CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+Contact their authors BEFORE contacting forge
+
+// Hey, that tickles! Hehehe!
+
+Time: 20/04/21 8:23 PM
+Description: Exception in server tick loop
+
+Duplicate Mods:
+	bountifulbaubles : C:\Users\pogbo\Desktop\custom modpack server\.\mods\Bountiful Baubles-1.12.2-0.1.0.jar
+	bountifulbaubles : C:\Users\pogbo\Desktop\custom modpack server\.\mods\Bountiful Baubles-1.12.2-0.1.6.jar
+
+net.minecraftforge.fml.common.DuplicateModsFoundException
+	at net.minecraftforge.fml.common.Loader.identifyDuplicates(Loader.java:466)
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:428)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_281, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 682361216 bytes (650 MB) / 981991424 bytes (936 MB) up to 981991424 bytes (936 MB)
+	JVM Flags: 2 total; -Xmx1G -Xms1G
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2854 53 mods loaded, 0 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                 | Version                  | Source                                             | Signature                                |
+	|:----- |:------------------ |:------------------------ |:-------------------------------------------------- |:---------------------------------------- |
+	|       | minecraft          | 1.12.2                   | minecraft.jar                                      | None                                     |
+	|       | mcp                | 9.42                     | minecraft.jar                                      | None                                     |
+	|       | FML                | 8.0.99.99                | forge-1.12.2-14.23.5.2854.jar                      | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	|       | forge              | 14.23.5.2854             | forge-1.12.2-14.23.5.2854.jar                      | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	|       | ivtoolkit          | 1.3.3-1.12               | minecraft.jar                                      | None                                     |
+	|       | battletowers       | 1.6.5                    | BattleTowers-1.12.2.jar                            | None                                     |
+	|       | baubles            | 1.5.2                    | Baubles-1.12-1.5.2.jar                             | None                                     |
+	|       | bettercaves        | 1.12.2                   | bettercaves-1.12.2-2.0.4.jar                       | None                                     |
+	|       | bibliocraft        | 2.4.5                    | BiblioCraft[v2.4.5][MC1.12.2].jar                  | None                                     |
+	|       | biomesoplenty      | 7.0.1.2441               | BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar      | None                                     |
+	|       | bountifulbaubles   | 0.0.1                    | Bountiful Baubles-1.12.2-0.1.0.jar                 | None                                     |
+	|       | bountifulbaubles   | 0.0.1                    | Bountiful Baubles-1.12.2-0.1.6.jar                 | None                                     |
+	|       | bountiful          | 2.2.2                    | Bountiful-2.2.2.jar                                | None                                     |
+	|       | chancecubes        | 1.12.2-5.0.2.385         | ChanceCubes-1.12.2-5.0.2.385.jar                   | None                                     |
+	|       | chisel             | MC1.12.2-1.0.2.45        | Chisel-MC1.12.2-1.0.2.45.jar                       | None                                     |
+	|       | dldungeonsjbg      | 1.13.2                   | DoomlikeDungeons-1.13.2-MC1.12.2.jar               | None                                     |
+	|       | dungeontactics     | DT-0.16.9                | DungeonTactics-1.12.2-0.16.9.jar                   | None                                     |
+	|       | ebwizardry         | 4.3.4                    | ElectroblobsWizardry-4.3.4-MC1.12.2.jar            | None                                     |
+	|       | forgelin           | 1.8.4                    | Forgelin-1.8.4.jar                                 | None                                     |
+	|       | ftblib             | 5.4.7.2                  | FTBLib-5.4.7.2.jar                                 | None                                     |
+	|       | ftbmoney           | 1.2.0.47                 | FTBMoney-1.2.0.47.jar                              | None                                     |
+	|       | ftbquests          | 1202.9.0.15              | FTBQuests-1202.9.0.15.jar                          | None                                     |
+	|       | ftbutilities       | 5.4.1.131                | FTBUtilities-5.4.1.131.jar                         | None                                     |
+	|       | hats               | 7.1.1                    | Hats-1.12.2-7.1.1.jar                              | None                                     |
+	|       | waila              | 1.8.26                   | Hwyla-1.8.26-B41_1.12.2.jar                        | None                                     |
+	|       | ichunutil          | 7.2.2                    | iChunUtil-1.12.2-7.2.2.jar                         | None                                     |
+	|       | ic2                | 2.8.170-ex112            | industrialcraft-2-2.8.170-ex112.jar                | None                                     |
+	|       | infernalmobs       | 1.7.6                    | InfernalMobs-1.12.2.jar                            | None                                     |
+	|       | inventorypets      | 2.0.13                   | inventorypets-1.12-2.0.13.jar                      | None                                     |
+	|       | inventorytweaks    | 1.63+release.109.220f184 | InventoryTweaks-1.63.jar                           | None                                     |
+	|       | itemfilters        | 1.0.4.2                  | ItemFilters-1.0.4.2.jar                            | None                                     |
+	|       | jei                | 4.16.1.301               | jei_1.12.2-4.16.1.301.jar                          | None                                     |
+	|       | journeymap         | 1.12.2-5.7.1             | journeymap-1.12.2-5.7.1.jar                        | None                                     |
+	|       | lootbags           | 2.5.8.5                  | LootBags-1.12.2-2.5.8.5.jar                        | None                                     |
+	|       | mantle             | 1.12-1.3.3.55            | Mantle-1.12-1.3.3.55.jar                           | None                                     |
+	|       | mekanism           | 1.12.2-9.8.3.390         | Mekanism-1.12.2-9.8.3.390.jar                      | None                                     |
+	|       | mekanismgenerators | 1.12.2-9.8.3.390         | MekanismGenerators-1.12.2-9.8.3.390.jar            | None                                     |
+	|       | mekanismtools      | 1.12.2-9.8.3.390         | MekanismTools-1.12.2-9.8.3.390.jar                 | None                                     |
+	|       | morpheus           | 1.12.2-3.5.106           | Morpheus-1.12.2-3.5.106.jar                        | None                                     |
+	|       | reccomplex         | 1.4.8.2                  | RecurrentComplex-1.4.8.2.jar                       | None                                     |
+	|       | roguelike          | 1.8.0                    | RoguelikeDungeons-1.12.2-1.8.0.jar                 | None                                     |
+	|       | ruins              | 17.2                     | Ruins-1.12.2.jar                                   | None                                     |
+	|       | tconstruct         | 1.12.2-2.13.0.183        | TConstruct-1.12.2-2.13.0.183.jar                   | None                                     |
+	|       | thaumcraft         | 6.1.BETA26               | Thaumcraft-1.12.2-6.1.BETA26.jar                   | None                                     |
+	|       | tcinventoryscan    | 2.0.10                   | ThaumicInventoryScanning_1.12.2-2.0.10.jar         | None                                     |
+	|       | tinkersjei         | 1.2                      | tinkersjei-1.2.jar                                 | None                                     |
+	|       | tinkertoolleveling | 1.12.2-1.1.0.DEV.b23e769 | TinkerToolLeveling-1.12.2-1.1.0.jar                | None                                     |
+	|       | uteamcore          | 2.2.5.147                | u_team_core-1.12.2-2.2.5.147.jar                   | None                                     |
+	|       | usefulbackpacks    | 1.5.4.85                 | useful_backpacks-1.12.2-1.5.4.85.jar               | None                                     |
+	|       | wawla              | 2.6.275                  | Wawla-1.12.2-2.6.275.jar                           | None                                     |
+	|       | waystones          | 4.1.0                    | Waystones_1.12.2-4.1.0.jar                         | None                                     |
+	|       | structurize        | 1.12.2-0.10.277-RELEASE  | structurize-1.12.2-0.10.277-RELEASE.jar            | None                                     |
+	|       | minecolonies       | 1.12.2-0.11.804-RELEASE  | minecolonies-1.12.2-0.11.804-RELEASE-universal.jar | None                                     |
+
+	Loaded coremods (and transformers): 
+Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
+  invtweaks.forge.asm.ContainerTransformer
+ForgelinPlugin (Forgelin-1.8.4.jar)
+  
+MekanismCoremod (Mekanism-1.12.2-9.8.3.390.jar)
+  mekanism.coremod.KeybindingMigrationHelper
+IvToolkit (IvToolkit-1.3.3-1.12.jar)
+  
+CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  team.chisel.ctm.client.asm.CTMTransformer
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

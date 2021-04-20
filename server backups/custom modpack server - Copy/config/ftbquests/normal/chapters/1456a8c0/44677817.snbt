@@ -1,0 +1,28 @@
+{
+	x: -8.549999999999999d,
+	y: -1.3499999999999999d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"6fa16f85"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.9d,
+	tasks: [{
+		uid: "3c7ee4c4",
+		type: "stat",
+		title: "Running Riot",
+		stat: "stat.mobKills",
+		value: 300
+	}],
+	rewards: [{
+		uid: "59320d1a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "7b952836",
+		type: "item",
+		item: "lootbags:itemlootbag 1 2"
+	}]
+}

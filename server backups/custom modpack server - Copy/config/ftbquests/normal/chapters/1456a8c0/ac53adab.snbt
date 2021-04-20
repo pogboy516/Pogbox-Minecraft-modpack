@@ -1,0 +1,25 @@
+{
+	title: "time to invest in feather falling?",
+	icon: "minecraft:feather",
+	x: -10.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "8355251e",
+		type: "stat",
+		stat: "stat.fallOneCm",
+		value: 1000
+	}],
+	rewards: [{
+		uid: "7e4e5a05",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 2s
+				}]
+			}
+		}
+	}]
+}

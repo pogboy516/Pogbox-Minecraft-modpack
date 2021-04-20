@@ -1,0 +1,28 @@
+{
+	x: -3.0d,
+	y: -9.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"43e94508",
+		"20d08a19",
+		"6283f451",
+		"ac939c14"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "1e2d19d3",
+		type: "dimension",
+		dim: 1
+	}],
+	rewards: [{
+		uid: "0a8ae720",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "c632b15b",
+		type: "loot",
+		table: 8
+	}]
+}

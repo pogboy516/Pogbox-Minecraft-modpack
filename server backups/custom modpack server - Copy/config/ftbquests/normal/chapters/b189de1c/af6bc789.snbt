@@ -1,0 +1,15 @@
+{
+	x: -3.5999999999999996d,
+	y: -1.2d,
+	size: 1.2d,
+	tasks: [{
+		uid: "022f32b9",
+		type: "checkmark",
+		title: "lets do magic"
+	}],
+	rewards: [{
+		uid: "03437b10",
+		type: "item",
+		item: "ebwizardry:wizard_handbook"
+	}]
+}

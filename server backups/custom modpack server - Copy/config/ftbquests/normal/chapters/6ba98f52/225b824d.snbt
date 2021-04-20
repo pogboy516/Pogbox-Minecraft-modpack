@@ -1,0 +1,22 @@
+{
+	x: -3.0d,
+	y: 6.5d,
+	dependencies: [
+		"6a05e6e7"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "5bdd89ab",
+		type: "item",
+		items: [{
+			item: "buildcrafttransport:pipe_diamond_item"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "bd9fbc3c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

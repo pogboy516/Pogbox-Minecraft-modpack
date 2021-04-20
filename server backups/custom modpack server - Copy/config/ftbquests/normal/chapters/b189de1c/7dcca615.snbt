@@ -1,0 +1,24 @@
+{
+	x: 0.5d,
+	y: -1.5d,
+	shape: "octagon",
+	dependencies: [
+		"87b08f22"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "9bc7e1d9",
+		type: "item",
+		items: [{
+			item: "ebwizardry:spell_book 1 1"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "dbbdc499",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

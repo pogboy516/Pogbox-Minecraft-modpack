@@ -1,0 +1,22 @@
+{
+	x: -3.0d,
+	y: 5.0d,
+	dependencies: [
+		"d5548416"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "61526aaa",
+		type: "item",
+		items: [{
+			item: "buildcrafttransport:pipe_iron_item"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "6a9fb54e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

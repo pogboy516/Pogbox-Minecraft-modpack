@@ -1,0 +1,27 @@
+{
+	x: -7.5d,
+	y: -4.0d,
+	dependencies: [
+		"55b4e709"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "2de12046",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "d9444e59",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "14f279e4",
+		type: "item",
+		item: "chancecubes:chance_cube",
+		count: 2
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: -3.5d,
+	can_repeat: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "c8d56a4b",
+		type: "item",
+		items: [{
+			item: "minecraft:rotten_flesh"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "91c34c59",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

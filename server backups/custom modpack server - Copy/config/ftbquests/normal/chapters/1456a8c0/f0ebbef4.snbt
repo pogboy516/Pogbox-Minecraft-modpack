@@ -1,0 +1,22 @@
+{
+	x: -3.0d,
+	y: -6.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"14071969"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "c3b04b23",
+		type: "kill",
+		icon: "inventorypets:magma_cube_pet",
+		entity: "minecraft:magma_cube",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "4f9a00ab",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

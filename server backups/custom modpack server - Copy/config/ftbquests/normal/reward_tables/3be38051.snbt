@@ -1,0 +1,53 @@
+{
+	title: "pet bag",
+	icon: "inventorypets:double_chest_pet",
+	loot_size: 1,
+	rewards: [{
+		item: "inventorypets:cow_pet",
+		weight: 2
+	},
+	{
+		item: "inventorypets:mooshroom_pet",
+		weight: 4
+	},
+	{
+		item: "inventorypets:double_chest_pet",
+		weight: 3
+	},
+	{
+		item: {
+			id: "inventorypets:spider_pet",
+			tag: {
+				GiveItems: 1b
+			}
+		},
+		weight: 2
+	},
+	{
+		item: "inventorypets:blaze_pet",
+		weight: 4
+	},
+	{
+		item: "inventorypets:brewing_stand_pet",
+		weight: 2
+	},
+	{
+		item: "inventorypets:nether_portal_pet"
+	},
+	{
+		item: "inventorypets:purplicious_cow_pet",
+		weight: 3
+	},
+	{
+		item: "inventorypets:silverfish_pet"
+	}],
+	loot_crate: {
+		string_id: "pet_bag",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

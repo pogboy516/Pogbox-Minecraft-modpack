@@ -1,0 +1,22 @@
+{
+	x: -1.5d,
+	y: 1.0d,
+	dependencies: [
+		"ab299fe6"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "bf238b50",
+		type: "item",
+		items: [{
+			item: "buildcraftfactory:pump"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "edbc091c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

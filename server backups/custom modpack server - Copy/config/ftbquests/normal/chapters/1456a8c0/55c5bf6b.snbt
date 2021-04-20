@@ -1,0 +1,27 @@
+{
+	x: -4.5d,
+	y: 1.0d,
+	dependencies: [
+		"fc0b700d"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "fee45636",
+		type: "kill",
+		title: "Kill blazes",
+		icon: "minecraft:blaze_powder",
+		entity: "minecraft:blaze",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "babbe428",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "aca7e656",
+		type: "random",
+		table: 6
+	}]
+}

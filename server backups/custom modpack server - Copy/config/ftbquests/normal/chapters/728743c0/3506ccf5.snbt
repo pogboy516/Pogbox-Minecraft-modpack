@@ -1,0 +1,18 @@
+{
+	x: -6.0d,
+	y: 2.0d,
+	can_repeat: true,
+	size: 0.75d,
+	tasks: [{
+		uid: "425cf0d7",
+		type: "item",
+		items: [{
+			item: "minecraft:pumpkin"
+		}]
+	}],
+	rewards: [{
+		uid: "dc03d4f3",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

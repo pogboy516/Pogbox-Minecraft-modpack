@@ -1,0 +1,42 @@
+{
+	title: "Master spells +",
+	icon: "ebwizardry:ruined_spell_book",
+	loot_size: 1,
+	rewards: [{
+		item: "ebwizardry:spell_book 1 100",
+		weight: 4
+	},
+	{
+		item: "ebwizardry:spell_book 1 171",
+		weight: 4
+	},
+	{
+		item: "ebwizardry:spell_book 1 186"
+	},
+	{
+		item: "ebwizardry:spell_book 1 184",
+		weight: 3
+	},
+	{
+		item: "ebwizardry:spell_book 1 96"
+	},
+	{
+		item: "ebwizardry:spell_book 1 164",
+		weight: 2
+	},
+	{
+		item: "ebwizardry:spell_book 1 89"
+	},
+	{
+		item: "ebwizardry:spell_book 1 88"
+	},
+	{
+		item: "ebwizardry:spell_book 1 182"
+	},
+	{
+		item: "ebwizardry:spell_book 1 105"
+	},
+	{
+		item: "ebwizardry:spell_book 1 85"
+	}]
+}

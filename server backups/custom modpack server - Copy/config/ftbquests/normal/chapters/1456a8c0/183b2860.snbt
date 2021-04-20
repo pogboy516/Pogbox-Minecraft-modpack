@@ -1,0 +1,26 @@
+{
+	x: -7.0d,
+	y: 3.5d,
+	dependencies: [
+		"fa27f38f"
+	],
+	size: 1.3d,
+	tasks: [{
+		uid: "ff9f079d",
+		type: "stat",
+		title: "Unfriggenbelievable",
+		icon: "mekanismtools:obsidiansword",
+		stat: "stat.mobKills",
+		value: 800
+	}],
+	rewards: [{
+		uid: "9d2db868",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "cd30893f",
+		type: "loot",
+		table: 10
+	}]
+}

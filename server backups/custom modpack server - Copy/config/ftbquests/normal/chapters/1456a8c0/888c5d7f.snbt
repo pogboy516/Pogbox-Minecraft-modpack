@@ -1,0 +1,33 @@
+{
+	title: "bone collector 4",
+	x: 3.0d,
+	y: -2.0d,
+	dependencies: [
+		"f24d0a1a"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "f6c86635",
+		type: "kill",
+		icon: "minecraft:skull",
+		entity: "minecraft:skeleton",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "f3cc0b4d",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "4d4e39fe",
+		type: "item",
+		item: "chancecubes:chance_icosahedron"
+	},
+	{
+		uid: "820e2f2d",
+		type: "loot",
+		table: 10
+	}]
+}

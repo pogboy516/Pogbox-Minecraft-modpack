@@ -1,0 +1,28 @@
+{
+	title: "Chicken chaser!",
+	icon: "minecraft:chicken",
+	x: -7.0d,
+	y: -6.0d,
+	dependencies: [
+		"7cb92e3e"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "193d07d2",
+		type: "kill",
+		entity: "minecraft:chicken",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "b3ac2532",
+		type: "item",
+		item: "minecraft:emerald",
+		count: 5
+	},
+	{
+		uid: "e32b3f2c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

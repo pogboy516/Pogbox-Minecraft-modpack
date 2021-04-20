@@ -1,0 +1,36 @@
+{
+	title: "lighting with style",
+	x: 0.0d,
+	y: -4.0d,
+	dependencies: [
+		"2397e38f",
+		"81ffb5d5"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "6845f5e2",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone_lamp"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "56745644",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 64
+	},
+	{
+		uid: "0fcedbc1",
+		type: "item",
+		item: "minecraft:repeater",
+		count: 6
+	},
+	{
+		uid: "e3bf54c8",
+		type: "xp",
+		xp: 100
+	}]
+}

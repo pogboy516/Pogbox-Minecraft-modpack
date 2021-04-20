@@ -1,0 +1,26 @@
+{
+	x: 0.5d,
+	y: -5.0d,
+	dependencies: [
+		"43e94508"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "da29b2c5",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone_dust"
+		}]
+	}],
+	rewards: [{
+		uid: "a34002f0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "4928ba6c",
+		type: "item",
+		item: "dungeontactics:bag_mystery"
+	}]
+}

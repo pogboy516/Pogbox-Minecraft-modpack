@@ -1,0 +1,29 @@
+{
+	x: -1.5d,
+	y: -3.5d,
+	dependencies: [
+		"c6643c0b"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "6e2e8603",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "49e94356",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "1fcd750e",
+		type: "item",
+		item: "minecraft:emerald",
+		count: 5
+	}]
+}

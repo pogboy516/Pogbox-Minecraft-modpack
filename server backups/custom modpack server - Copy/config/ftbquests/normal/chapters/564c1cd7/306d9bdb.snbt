@@ -1,0 +1,28 @@
+{
+	x: -2.5d,
+	y: -2.5d,
+	dependencies: [
+		"01c0d31a"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "b7193132",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5f3a6f05",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "118e4ee1",
+		type: "loot",
+		table: 1
+	}]
+}

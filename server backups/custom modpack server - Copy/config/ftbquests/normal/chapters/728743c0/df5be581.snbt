@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: 0.5d,
+	can_repeat: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "73d50efd",
+		type: "item",
+		items: [{
+			item: "minecraft:gunpowder"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "48fd451f",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "novice spells 2",
+	loot_size: 1,
+	rewards: [{
+		item: "ebwizardry:spell_book 1 9"
+	},
+	{
+		item: "ebwizardry:spell_book 1 141"
+	},
+	{
+		item: "ebwizardry:spell_book 1 113"
+	},
+	{
+		item: "ebwizardry:spell_book 1 8"
+	},
+	{
+		item: "ebwizardry:spell_book 1 10"
+	},
+	{
+		item: "ebwizardry:spell_book 1 11"
+	},
+	{
+		item: "ebwizardry:spell_book 1 142"
+	},
+	{
+		item: "ebwizardry:spell_book 1 143"
+	},
+	{
+		item: "ebwizardry:spell_book 1 12"
+	}],
+	loot_crate: {
+		string_id: "novice_spells_2",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

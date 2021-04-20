@@ -1,0 +1,47 @@
+{
+	title: "Crafting time ",
+	x: -8.5d,
+	y: -2.5d,
+	dependencies: [
+		"14cc51d8"
+	],
+	hide: true,
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "5f7f69d1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "plankWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plankWood"
+				}
+			}
+		}],
+		only_from_crafting: true
+	},
+	{
+		uid: "edfef967",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "e922dce6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f754fdba",
+		type: "item",
+		item: "minecraft:stone_axe"
+	}]
+}

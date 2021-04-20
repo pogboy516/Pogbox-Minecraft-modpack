@@ -1,0 +1,24 @@
+{
+	x: 1.5d,
+	y: -5.5d,
+	dependencies: [
+		"bb9cad83"
+	],
+	tasks: [{
+		uid: "29ae3b21",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "stone"
+			}
+		}],
+		consume_items: false,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ed273279",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

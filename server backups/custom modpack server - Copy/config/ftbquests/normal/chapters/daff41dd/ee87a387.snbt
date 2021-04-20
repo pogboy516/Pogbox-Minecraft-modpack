@@ -1,0 +1,40 @@
+{
+	x: -5.0d,
+	y: -1.0d,
+	dependencies: [
+		"866c8517"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "f75d795a",
+		type: "kill",
+		icon: "minecraft:skull 1 1",
+		entity: "minecraft:wither_skeleton",
+		value: 25L
+	},
+	{
+		uid: "fada9ee6",
+		type: "item",
+		items: [{
+			item: "minecraft:skull 1 1"
+		}],
+		count: 3L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "e6057ac8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "fd56b9a6",
+		type: "item",
+		item: "lootbags:itemlootbag 1 1"
+	},
+	{
+		uid: "b7356b10",
+		type: "loot",
+		table: 12
+	}]
+}

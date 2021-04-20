@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	dependencies: [
+		"0d2f71fa"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "d32e34a0",
+		type: "item",
+		items: [{
+			item: "buildcraftcore:engine"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "a07fd454",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

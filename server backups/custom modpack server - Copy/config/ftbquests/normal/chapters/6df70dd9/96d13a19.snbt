@@ -1,0 +1,21 @@
+{
+	x: 8.5d,
+	y: 0.5d,
+	dependencies: [
+		"78995ed4"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "dbac2ee8",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutshepherd"
+		}]
+	}],
+	rewards: [{
+		uid: "8bdbd875",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}
