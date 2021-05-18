@@ -1,0 +1,43 @@
+{
+	x: -2.0d,
+	y: -6.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"66b8ad8b",
+		"d9910d56"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "bf2121f9",
+		type: "item",
+		items: [{
+			item: "minecraft:brewing_stand"
+		}],
+		only_from_crafting: true
+	},
+	{
+		uid: "34bd5703",
+		type: "item",
+		items: [{
+			item: "minecraft:glass_bottle"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "15072caa",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "e86c3233",
+		type: "item",
+		item: "minecraft:nether_wart",
+		count: 10
+	},
+	{
+		uid: "cdfcc1bd",
+		type: "loot",
+		table: 11
+	}]
+}

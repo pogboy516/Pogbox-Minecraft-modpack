@@ -1,0 +1,17 @@
+{
+	x: -6.0d,
+	y: 0.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "0ddc9cc4",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_block"
+		}]
+	}],
+	rewards: [{
+		uid: "b7773b24",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

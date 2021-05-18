@@ -1,0 +1,29 @@
+{
+	x: -3.5d,
+	y: -5.0d,
+	dependencies: [
+		"29779496"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "5c14aebd",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "26e8357d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "8cf01b29",
+		type: "loot",
+		table: 0
+	}]
+}

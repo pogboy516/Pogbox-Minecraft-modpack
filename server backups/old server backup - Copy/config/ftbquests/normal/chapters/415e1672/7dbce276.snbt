@@ -1,0 +1,36 @@
+{
+	x: -1.2d,
+	y: -10.8d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"d9910d56"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "e477eca6",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ingot"
+		}],
+		only_from_crafting: true
+	},
+	{
+		uid: "94558eb1",
+		type: "kill",
+		entity: "minecraft:zombie_pigman",
+		value: 15L
+	}],
+	rewards: [{
+		uid: "c47116ab",
+		type: "ftbmoney:money",
+		ftb_money: 100L,
+		random_bonus: 50
+	},
+	{
+		uid: "fa9913e7",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -3.6d,
+	y: -4.0d,
+	shape: "gear",
+	dependencies: [
+		"53e8b6e6"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "dab4e3ff",
+		type: "item",
+		items: [{
+			item: "buildcraftcore:gear_gold"
+		}]
+	}],
+	rewards: [{
+		uid: "4f2ea880",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

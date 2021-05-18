@@ -1,0 +1,32 @@
+{
+	x: -4.5d,
+	y: -3.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"afa595e1",
+		"5474519d"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.7d,
+	tasks: [{
+		uid: "28eef751",
+		type: "item",
+		items: [{
+			item: "minecraft:glass_pane"
+		}],
+		count: 32L,
+		consume_items: true,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "0a8fa4db",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "cc802fc7",
+		type: "item",
+		item: "dungeontactics:bag_mystery"
+	}]
+}

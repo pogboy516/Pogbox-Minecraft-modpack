@@ -1,0 +1,34 @@
+{
+	title: "John Wick can suck it",
+	x: -5.0d,
+	y: -6.0d,
+	dependencies: [
+		"7cb92e3e"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "7638a1be",
+		type: "kill",
+		title: "kill the doggo",
+		icon: "minecraft:bone",
+		entity: "minecraft:wolf",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "dc5fb98b",
+		type: "item",
+		item: "minecraft:emerald",
+		count: 5
+	},
+	{
+		uid: "b4fcd844",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "cf81e451",
+		type: "loot",
+		table: 2
+	}]
+}

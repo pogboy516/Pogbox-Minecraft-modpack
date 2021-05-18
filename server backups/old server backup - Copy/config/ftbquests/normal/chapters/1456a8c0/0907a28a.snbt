@@ -1,0 +1,29 @@
+{
+	title: "nobody likes a creeper 2",
+	x: -1.875d,
+	y: 0.0d,
+	dependencies: [
+		"b6e0e116"
+	],
+	hide: true,
+	dependency_requirement: "all_started",
+	hide_text_until_complete: true,
+	size: 1.25d,
+	tasks: [{
+		uid: "8089fe8c",
+		type: "kill",
+		icon: "minecraft:skull 1 4",
+		entity: "minecraft:creeper",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "54b7c7e3",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "6ce02ead",
+		type: "loot",
+		table: 11
+	}]
+}

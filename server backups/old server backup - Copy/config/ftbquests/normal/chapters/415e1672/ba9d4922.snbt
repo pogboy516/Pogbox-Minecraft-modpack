@@ -1,0 +1,27 @@
+{
+	x: -4.2d,
+	y: -8.4d,
+	dependencies: [
+		"c4433e30"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.7d,
+	tasks: [{
+		uid: "e1b3fff4",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}]
+	}],
+	rewards: [{
+		uid: "8234d425",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "b31dbc83",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: -1.0d,
+	y: -5.5d,
+	dependencies: [
+		"ffab54ac"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "eca11321",
+		type: "kill",
+		icon: "minecraft:spider_eye",
+		entity: "minecraft:creeper",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "6eba7cde",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "04703824",
+		type: "loot",
+		table: 9
+	}]
+}

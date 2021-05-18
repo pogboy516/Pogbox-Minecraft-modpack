@@ -1,0 +1,25 @@
+{
+	x: 2.5d,
+	y: 5.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"0807c8d4"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "dc6640e3",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:fletching"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c83afa52",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: -5.5d,
+	y: 3.0d,
+	dependencies: [
+		"663af9fb"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "98453d30",
+		type: "kill",
+		title: "murder villagers",
+		icon: "minecraft:fire_charge",
+		entity: "minecraft:villager",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "68d71651",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "dc16b204",
+		type: "item",
+		item: "chancecubes:chance_icosahedron"
+	},
+	{
+		uid: "9aca2fb2",
+		type: "loot",
+		table: 10
+	}]
+}

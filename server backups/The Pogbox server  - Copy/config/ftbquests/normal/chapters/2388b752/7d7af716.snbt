@@ -1,0 +1,33 @@
+{
+	title: "make your first binding",
+	x: 1.5d,
+	y: -5.5d,
+	dependencies: [
+		"c0d7170d"
+	],
+	tasks: [{
+		uid: "fa6925d3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "partBinding",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any partBinding"
+				}
+			}
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "79cf4e38",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

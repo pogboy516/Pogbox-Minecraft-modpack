@@ -1,0 +1,33 @@
+{
+	title: "do you need coal?",
+	x: -5.6d,
+	y: -4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"5474519d"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "a221d086",
+		type: "item",
+		title: "cook charcol",
+		items: [{
+			item: "minecraft:coal 1 1"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "6c10032e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "20c12405",
+		type: "item",
+		item: "minecraft:torch",
+		count: 64,
+		random_bonus: 128
+	}]
+}

@@ -1,0 +1,58 @@
+{
+	title: "give me the loot",
+	x: 0.0d,
+	y: -4.5d,
+	dependencies: [
+		"3f93009b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0a6995f3",
+		type: "item",
+		title: "common loot bags",
+		items: [{
+			item: "lootbags:itemlootbag"
+		}],
+		count: 20L,
+		consume_items: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d928e13b",
+		type: "item",
+		items: [{
+			item: "lootbags:itemlootbag 1 1"
+		}],
+		count: 15L,
+		consume_items: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b3bdc45d",
+		type: "item",
+		items: [{
+			item: "lootbags:itemlootbag 1 2"
+		}],
+		count: 10L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2a4de630",
+		type: "item",
+		items: [{
+			item: "lootbags:itemlootbag 1 3"
+		}],
+		count: 10L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "132cc90e",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "5a2bff5f",
+		type: "random",
+		table: 10
+	}]
+}

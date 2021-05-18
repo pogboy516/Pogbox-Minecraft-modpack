@@ -1,0 +1,24 @@
+{
+	x: -4.2d,
+	y: -6.3d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"5474519d"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.6d,
+	tasks: [{
+		uid: "6e958e66",
+		type: "item",
+		items: [{
+			item: "minecraft:cooked_fish"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "b5480eaa",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

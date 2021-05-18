@@ -1,0 +1,19 @@
+{
+	title: "gets get automated",
+	x: -5.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "a7fd9da3",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "d63c64b0",
+		type: "item",
+		item: "buildcraftlib:guide"
+	},
+	{
+		uid: "d92f28ac",
+		type: "random",
+		table: 6
+	}]
+}

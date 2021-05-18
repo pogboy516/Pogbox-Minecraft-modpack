@@ -1,0 +1,28 @@
+{
+	title: "first iron Ingot",
+	x: -5.0d,
+	y: -2.5d,
+	dependencies: [
+		"55b4e709",
+		"cc439071"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "c06060b2",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "2f3dd778",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "36678a8a",
+		type: "choice",
+		table: 6
+	}]
+}

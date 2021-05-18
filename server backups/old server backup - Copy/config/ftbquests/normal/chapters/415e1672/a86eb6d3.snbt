@@ -1,0 +1,24 @@
+{
+	x: -9.6d,
+	y: -8.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"60a85e7c"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "47ce37af",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedcobblestone 1 1"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "5a53b933",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -0.5d,
+	y: 6.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"0807c8d4"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "50aa560f",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:pick_head"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4510dba5",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

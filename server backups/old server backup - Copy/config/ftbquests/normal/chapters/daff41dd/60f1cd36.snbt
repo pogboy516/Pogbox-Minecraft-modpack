@@ -1,0 +1,25 @@
+{
+	title: "Visit a Jungle",
+	x: -2.5d,
+	y: -2.0d,
+	dependencies: [
+		"35d7186c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ee1e1120",
+		type: "biome",
+		biome: "minecraft:jungle"
+	}],
+	rewards: [{
+		uid: "39c19056",
+		type: "item",
+		item: "minecraft:diamond_axe"
+	},
+	{
+		uid: "c163658e",
+		type: "ftbmoney:money",
+		ftb_money: 50L,
+		random_bonus: 50
+	}]
+}

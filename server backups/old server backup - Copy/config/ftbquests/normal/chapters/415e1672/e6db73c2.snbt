@@ -1,0 +1,75 @@
+{
+	title: "a good boyscout ",
+	x: -2.8d,
+	y: -4.4d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"c4433e30"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "02465205",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_pickaxe"
+		}],
+		consume_items: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	},
+	{
+		uid: "e7affda2",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_axe"
+		}],
+		consume_items: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	},
+	{
+		uid: "ab1e2b9c",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_shovel"
+		}],
+		consume_items: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	},
+	{
+		uid: "d037ee08",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_sword"
+		}],
+		consume_items: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	},
+	{
+		uid: "4955ae81",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:iron_hoe"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "bea95a91",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "d558aa69",
+		type: "item",
+		item: "minecraft:diamond",
+		random_bonus: 3
+	}]
+}

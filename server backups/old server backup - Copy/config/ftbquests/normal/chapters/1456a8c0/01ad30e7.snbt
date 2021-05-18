@@ -1,0 +1,23 @@
+{
+	x: -8.0d,
+	y: -2.5d,
+	size: 0.5d,
+	tasks: [{
+		uid: "ee1794b8",
+		type: "stat",
+		title: "killing spree",
+		icon: "minecraft:wooden_sword",
+		stat: "stat.mobKills",
+		value: 100
+	}],
+	rewards: [{
+		uid: "246596cf",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "272f43cf",
+		type: "item",
+		item: "lootbags:itemlootbag"
+	}]
+}

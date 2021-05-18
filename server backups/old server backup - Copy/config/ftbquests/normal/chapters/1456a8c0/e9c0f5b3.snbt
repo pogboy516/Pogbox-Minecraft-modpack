@@ -1,0 +1,36 @@
+{
+	x: 2.0d,
+	y: -7.5d,
+	dependencies: [
+		"344f4230"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "f6d81729",
+		type: "kill",
+		icon: {
+			id: "inventorypets:slime_pet",
+			tag: {
+				GiveItems: 1b
+			}
+		},
+		entity: "minecraft:slime",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "2f21a3de",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "190ba297",
+		type: "item",
+		item: "chancecubes:chance_icosahedron"
+	},
+	{
+		uid: "bf59cdcb",
+		type: "loot",
+		table: 10
+	}]
+}

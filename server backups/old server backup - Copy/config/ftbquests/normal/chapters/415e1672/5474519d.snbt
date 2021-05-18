@@ -1,0 +1,28 @@
+{
+	x: -5.2d,
+	y: -6.0d,
+	dependencies: [
+		"b30a375c"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "19dcf623",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "83b968fc",
+		type: "ftbmoney:money",
+		ftb_money: 50L,
+		random_bonus: 50
+	},
+	{
+		uid: "ea27716a",
+		type: "item",
+		item: "minecraft:coal",
+		count: 12
+	}]
+}

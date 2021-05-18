@@ -1,0 +1,31 @@
+{
+	icon: "extrautils2:angelring 1 4",
+	x: -4.0d,
+	y: -9.2d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"3bcf13af"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "b12a6a40",
+		type: "stat",
+		title: "deaths",
+		icon: "inventorypets:grave_pet",
+		stat: "stat.deaths",
+		value: 100
+	}],
+	rewards: [{
+		uid: "824bb1a3",
+		type: "ftbmoney:money",
+		ftb_money: 50L,
+		random_bonus: 50
+	},
+	{
+		uid: "bea3aa1f",
+		type: "loot",
+		table: 10
+	}]
+}

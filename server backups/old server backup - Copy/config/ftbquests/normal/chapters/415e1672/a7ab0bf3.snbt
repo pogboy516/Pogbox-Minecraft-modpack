@@ -1,0 +1,30 @@
+{
+	x: -7.5d,
+	y: -4.0d,
+	dependencies: [
+		"b30a375c"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.7d,
+	tasks: [{
+		uid: "99e0d632",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "9d9f8287",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c7a16992",
+		type: "item",
+		item: "dungeontactics:bag_tool"
+	}]
+}

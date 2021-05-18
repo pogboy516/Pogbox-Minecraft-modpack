@@ -1,0 +1,44 @@
+{
+	x: -4.5d,
+	y: -2.5d,
+	dependencies: [
+		"866c8517"
+	],
+	hide: true,
+	dependency_requirement: "all_started",
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "6f5fa12e",
+		type: "item",
+		items: [{
+			item: "minecraft:rotten_flesh"
+		}],
+		count: 10L
+	},
+	{
+		uid: "8eee5197",
+		type: "item",
+		items: [{
+			item: "minecraft:string"
+		}],
+		count: 15L
+	},
+	{
+		uid: "108c5c22",
+		type: "item",
+		items: [{
+			item: "minecraft:spider_eye"
+		}],
+		count: 20L
+	}],
+	rewards: [{
+		uid: "194dc81d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "5af9036f",
+		type: "item",
+		item: "lootbags:itemlootbag 1 1"
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "a bakers dozen dozen ",
+	x: -3.0d,
+	y: 0.5d,
+	tasks: [{
+		uid: "d98a8475",
+		type: "item",
+		items: [{
+			item: "minecraft:bread"
+		}],
+		count: 169L
+	}],
+	rewards: [{
+		uid: "6df1302e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "42079720",
+		type: "item",
+		item: "lootbags:itemlootbag 1 2"
+	}]
+}

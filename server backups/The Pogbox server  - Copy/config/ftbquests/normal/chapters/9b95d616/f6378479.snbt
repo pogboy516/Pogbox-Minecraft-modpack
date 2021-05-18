@@ -1,0 +1,22 @@
+{
+	x: -5.5d,
+	y: -8.0d,
+	dependencies: [
+		"a1787368"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "47e2431d",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedcobblestone"
+		}]
+	}],
+	rewards: [{
+		uid: "27165daa",
+		type: "ftbmoney:money",
+		ftb_money: 100L,
+		random_bonus: 100
+	}]
+}

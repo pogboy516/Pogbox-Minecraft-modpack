@@ -1,0 +1,36 @@
+{
+	title: "getting an upgrade",
+	x: -6.5d,
+	y: -9.5d,
+	dependencies: [
+		"d661fcd7"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "279371cb",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "b050da4b",
+		type: "ftbmoney:money",
+		ftb_money: 50L,
+		random_bonus: 100
+	},
+	{
+		uid: "ce660832",
+		type: "item",
+		item: "lootbags:itemlootbag 1 1"
+	},
+	{
+		uid: "117f7905",
+		type: "item",
+		item: "usefulbackpacks:backpack"
+	}]
+}

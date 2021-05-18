@@ -1,0 +1,27 @@
+{
+	x: -1.0d,
+	y: -5.0d,
+	dependencies: [
+		"c6643c0b"
+	],
+	tasks: [{
+		uid: "10d3bca8",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 4"
+		}],
+		count: 15L,
+		consume_items: true,
+		only_from_crafting: false
+	}],
+	rewards: [{
+		uid: "e2411f46",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "e1307036",
+		type: "random",
+		table: 9
+	}]
+}

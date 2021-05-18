@@ -1,0 +1,63 @@
+{
+	x: -3.5d,
+	y: -7.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"c4433e30"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "9ffd3463",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_helmet"
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	},
+	{
+		uid: "b49e1a1c",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	},
+	{
+		uid: "fbb8a7b1",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	},
+	{
+		uid: "4fa8b658",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "2cf2ce96",
+		type: "ftbmoney:money",
+		ftb_money: 50L,
+		random_bonus: 50
+	},
+	{
+		uid: "e8f931a6",
+		type: "loot",
+		table: 0
+	}]
+}

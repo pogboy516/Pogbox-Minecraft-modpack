@@ -1,0 +1,28 @@
+{
+	x: -9.799999999999999d,
+	y: -5.95d,
+	dependencies: [
+		"7648bbe2"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.7d,
+	tasks: [{
+		uid: "5a4502ed",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 15"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "87088176",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f1a6c185",
+		type: "item",
+		item: "minecraft:iron_hoe"
+	}]
+}

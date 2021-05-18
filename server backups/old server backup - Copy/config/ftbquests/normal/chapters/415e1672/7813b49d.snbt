@@ -1,0 +1,42 @@
+{
+	title: "baby steps",
+	icon: "minecraft:planks",
+	x: -8.5d,
+	y: -5.0d,
+	dependencies: [
+		"3d446fd1"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.9d,
+	tasks: [{
+		uid: "1ad8a517",
+		type: "item",
+		title: "craft some wood",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "plankWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plankWood"
+				}
+			}
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "2667a4c7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "79d17953",
+		type: "loot",
+		table: 6
+	}]
+}

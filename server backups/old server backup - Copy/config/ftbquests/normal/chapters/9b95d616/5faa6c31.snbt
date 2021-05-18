@@ -1,0 +1,23 @@
+{
+	title: "bring me some of the moon",
+	x: 2.0d,
+	y: -6.5d,
+	dependencies: [
+		"9c21aeaa"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "4c1f1659",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:basic_block_moon 1 3"
+		}],
+		count: 124L
+	}],
+	rewards: [{
+		uid: "8fc0b0be",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

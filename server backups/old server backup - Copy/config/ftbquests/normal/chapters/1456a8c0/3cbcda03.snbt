@@ -1,0 +1,20 @@
+{
+	title: "threads on threads on threads ",
+	icon: "minecraft:string",
+	x: -10.0d,
+	y: -4.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "bc2c1520",
+		type: "item",
+		items: [{
+			item: "minecraft:string"
+		}],
+		count: 50L
+	}],
+	rewards: [{
+		uid: "8338a43a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

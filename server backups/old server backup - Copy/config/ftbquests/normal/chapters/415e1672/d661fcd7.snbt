@@ -1,0 +1,29 @@
+{
+	x: -6.5d,
+	y: -8.0d,
+	shape: "pentagon",
+	dependencies: [
+		"3a3c65c8"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "7cdf16af",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_pickaxe"
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "b2290bfd",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "912c534e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

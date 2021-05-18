@@ -1,0 +1,22 @@
+{
+	x: -4.8999999999999995d,
+	y: 3.5d,
+	dependencies: [
+		"bc7a4e3c"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.7d,
+	tasks: [{
+		uid: "b839df31",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:rocket_fins"
+		}]
+	}],
+	rewards: [{
+		uid: "45584d7e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

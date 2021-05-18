@@ -1,0 +1,30 @@
+{
+	x: -5.0d,
+	y: -7.5d,
+	shape: "hexagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"5474519d",
+		"d661fcd7"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "9884fbce",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "6728ab91",
+		type: "ftbmoney:money",
+		ftb_money: 50L,
+		random_bonus: 50
+	},
+	{
+		uid: "2b0da4bb",
+		type: "item",
+		item: "chancecubes:compact_giant_chance_cube"
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: -5.6d,
+	y: -8.4d,
+	dependencies: [
+		"c4433e30"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.7d,
+	tasks: [{
+		uid: "e5bb1972",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ingot"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "aab25068",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "16198c8f",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

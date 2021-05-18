@@ -1,0 +1,17 @@
+{
+	title: "Time to build an empire",
+	x: -3.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "e0712f9b",
+		type: "item",
+		items: [{
+			item: "minecolonies:supplychestdeployer"
+		},
+		{
+			item: "minecolonies:supplycampdeployer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

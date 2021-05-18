@@ -1,0 +1,27 @@
+{
+	x: -4.0d,
+	y: -0.5d,
+	dependencies: [
+		"14071969"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "7efb86e8",
+		type: "kill",
+		title: "nobody likes a creeper ",
+		icon: "minecraft:skull 1 4",
+		entity: "minecraft:creeper",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "5f34013d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "adbe5636",
+		type: "choice",
+		table: 3
+	}]
+}

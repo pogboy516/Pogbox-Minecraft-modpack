@@ -1,0 +1,31 @@
+{
+	x: -3.0d,
+	y: -6.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"c4433e30"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "7ccc4258",
+		type: "item",
+		items: [{
+			item: "minecraft:cauldron"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "beadf951",
+		type: "ftbmoney:money",
+		ftb_money: 50L,
+		random_bonus: 50
+	},
+	{
+		uid: "83f28f07",
+		type: "item",
+		item: "minecraft:glass_bottle",
+		count: 5,
+		random_bonus: 5
+	}]
+}

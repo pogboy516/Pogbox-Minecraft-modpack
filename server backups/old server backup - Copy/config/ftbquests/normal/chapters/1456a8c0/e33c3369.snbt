@@ -1,0 +1,31 @@
+{
+	title: "kill the ender dragon 3",
+	icon: "minecraft:skull 1 5",
+	x: 2.25d,
+	y: -9.0d,
+	dependencies: [
+		"73f9cf49"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "f9e046d2",
+		type: "kill",
+		title: "kill the ender dragon ten times",
+		icon: "minecraft:skull 1 5",
+		entity: "minecraft:ender_dragon",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "a3f3200e",
+		type: "item",
+		item: "chancecubes:chance_icosahedron",
+		count: 5
+	},
+	{
+		uid: "b291f913",
+		type: "loot",
+		table: 10
+	}]
+}

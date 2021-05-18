@@ -1,0 +1,65 @@
+{
+	title: "now thats protection",
+	x: -5.95d,
+	y: -10.85d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"911eb041"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.7d,
+	tasks: [{
+		uid: "1a1be57b",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3d431a5d",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4528c025",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6d0a87b2",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2912f5f0",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 3,
+		random_bonus: 3
+	},
+	{
+		uid: "7e2670c3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "72973494",
+		type: "loot",
+		table: 11
+	}]
+}

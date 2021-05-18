@@ -1,0 +1,25 @@
+{
+	x: -1.7999999999999998d,
+	y: 4.05d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"2886a49e",
+		"de34c580",
+		"2bc9336f"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.9d,
+	tasks: [{
+		uid: "3c99f4dc",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:collector"
+		}]
+	}],
+	rewards: [{
+		uid: "741d8f8a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

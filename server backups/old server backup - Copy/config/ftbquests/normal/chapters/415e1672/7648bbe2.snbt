@@ -1,0 +1,57 @@
+{
+	title: "setting up a farm",
+	x: -8.75d,
+	y: -5.95d,
+	dependencies: [
+		"43aa7c1a"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.7d,
+	tasks: [{
+		uid: "91b7527c",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat_seeds"
+		}],
+		count: 24L
+	},
+	{
+		uid: "b98a4ac7",
+		type: "item",
+		items: [{
+			item: "minecraft:bucket"
+		}],
+		only_from_crafting: true
+	},
+	{
+		uid: "dba5e9e3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dirt",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dirt"
+				}
+			}
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "5a4d0f1a",
+		type: "item",
+		item: "minecraft:pumpkin_seeds"
+	},
+	{
+		uid: "4db8b91b",
+		type: "ftbmoney:money",
+		ftb_money: 50L,
+		random_bonus: 100
+	}]
+}

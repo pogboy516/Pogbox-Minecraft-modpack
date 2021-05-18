@@ -1,0 +1,25 @@
+{
+	x: -4.0d,
+	y: 4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"2886a49e",
+		"2bc9336f",
+		"bc7a4e3c",
+		"6aa03497"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "034edaeb",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:heavy_plating"
+		}]
+	}],
+	rewards: [{
+		uid: "a6d4d8c6",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

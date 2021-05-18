@@ -1,0 +1,17 @@
+{
+	x: -4.5d,
+	y: -11.5d,
+	shape: "hexagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"178e078e",
+		"911eb041"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "1bd8985c",
+		type: "dimension",
+		dim: -1
+	}]
+}

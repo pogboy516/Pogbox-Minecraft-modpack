@@ -1,0 +1,24 @@
+{
+	x: -1.6d,
+	y: 0.0d,
+	shape: "rsquare",
+	dependencies: [
+		"33b04dbf"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "ffff6dcd",
+		type: "item",
+		items: [{
+			item: "buildcrafttransport:pipe_cobble_item"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "40500b00",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

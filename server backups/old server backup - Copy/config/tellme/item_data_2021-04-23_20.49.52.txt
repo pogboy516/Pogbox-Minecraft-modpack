@@ -1,0 +1,8 @@
+Paper Pickaxe Head (tconstruct:pick_head - 6569:0) has NBT data
+
+{Material:"paper"}
+
+TAG_Compound (10) ('')
+{
+    TAG_String (8) ('Material'): "paper"
+}

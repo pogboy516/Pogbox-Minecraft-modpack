@@ -1,0 +1,31 @@
+{
+	x: 1.0d,
+	y: -6.5d,
+	dependencies: [
+		"d29536a0"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "160375e7",
+		type: "kill",
+		icon: "inventorypets:magma_cube_pet",
+		entity: "minecraft:magma_cube",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "37f9aaed",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ef99f8d0",
+		type: "item",
+		item: "chancecubes:chance_icosahedron"
+	},
+	{
+		uid: "571f927f",
+		type: "loot",
+		table: 10
+	}]
+}

@@ -1,0 +1,106 @@
+{
+	title: "Upgrading the threads",
+	x: -3.5d,
+	y: 1.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"87a84681"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "7d740719",
+		type: "item",
+		items: [{
+			item: "ebwizardry:wizard_hat_fire"
+		},
+		{
+			item: "ebwizardry:sage_hat_fire"
+		},
+		{
+			item: "ebwizardry:wizard_hat"
+		},
+		{
+			item: "ebwizardry:wizard_hat_lightning"
+		},
+		{
+			item: "ebwizardry:wizard_hat_necromancy"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "56a7a509",
+		type: "item",
+		items: [{
+			item: "ebwizardry:wizard_robe_fire"
+		},
+		{
+			item: "ebwizardry:sage_robe_fire"
+		},
+		{
+			item: "ebwizardry:wizard_robe"
+		},
+		{
+			item: "ebwizardry:wizard_robe_lightning"
+		},
+		{
+			item: "ebwizardry:wizard_robe_necromancy"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8cd5f2a6",
+		type: "item",
+		items: [{
+			item: "ebwizardry:wizard_leggings_fire"
+		},
+		{
+			item: "ebwizardry:sage_leggings_fire"
+		},
+		{
+			item: "ebwizardry:wizard_leggings"
+		},
+		{
+			item: "ebwizardry:wizard_leggings_lightning"
+		},
+		{
+			item: "ebwizardry:wizard_leggings_necromancy"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "66877d13",
+		type: "item",
+		items: [{
+			item: "ebwizardry:wizard_boots_fire"
+		},
+		{
+			item: "ebwizardry:sage_boots_fire"
+		},
+		{
+			item: "ebwizardry:wizard_boots"
+		},
+		{
+			item: "ebwizardry:wizard_boots_lightning"
+		},
+		{
+			item: "ebwizardry:wizard_boots_necromancy"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f6428f03",
+		type: "ftbmoney:money",
+		ftb_money: 50L,
+		random_bonus: 50
+	},
+	{
+		uid: "82d91878",
+		type: "loot",
+		table: 5
+	}]
+}

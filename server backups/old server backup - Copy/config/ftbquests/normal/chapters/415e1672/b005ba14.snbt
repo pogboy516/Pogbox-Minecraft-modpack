@@ -1,0 +1,58 @@
+{
+	x: -3.2d,
+	y: -8.4d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"b30a375c",
+		"7648bbe2"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "ea05565d",
+		type: "item",
+		items: [{
+			item: "minecraft:bread"
+		}],
+		count: 24L,
+		consume_items: true,
+		only_from_crafting: true
+	},
+	{
+		uid: "4e105ed8",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat_seeds"
+		}],
+		count: 24L,
+		consume_items: true,
+		only_from_crafting: true
+	},
+	{
+		uid: "2414e01c",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat"
+		}],
+		count: 24L,
+		consume_items: true,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "4890e3a3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c477c409",
+		type: "loot",
+		table: 7
+	},
+	{
+		uid: "e05dc0cc",
+		type: "item",
+		item: "minecraft:emerald",
+		count: 3
+	}]
+}

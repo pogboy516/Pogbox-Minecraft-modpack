@@ -1,0 +1,28 @@
+{
+	x: -6.0d,
+	y: -7.199999999999999d,
+	dependencies: [
+		"ad14ebb7"
+	],
+	size: 0.6d,
+	tasks: [{
+		uid: "5522a862",
+		type: "item",
+		items: [{
+			item: "minecraft:torch"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "da0c77e3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "d373c9ea",
+		type: "item",
+		item: "minecraft:torch",
+		count: 64,
+		random_bonus: 64
+	}]
+}

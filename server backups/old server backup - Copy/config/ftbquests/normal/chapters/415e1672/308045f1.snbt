@@ -1,0 +1,43 @@
+{
+	x: -2.4d,
+	y: -8.4d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"7648bbe2"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "dc2584fe",
+		type: "item",
+		items: [{
+			item: "minecraft:melon"
+		}],
+		count: 100L
+	},
+	{
+		uid: "55c7e7c7",
+		type: "item",
+		items: [{
+			item: "minecraft:melon_seeds"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "d2f24cc4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "6894cf02",
+		type: "item",
+		item: "minecraft:iron_hoe"
+	},
+	{
+		uid: "0f10cf6d",
+		type: "item",
+		item: "minecraft:emerald",
+		count: 3
+	}]
+}

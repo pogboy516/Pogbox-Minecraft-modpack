@@ -1,0 +1,19 @@
+{
+	title: "Bring me the egg",
+	x: -6.5d,
+	y: -6.5d,
+	tasks: [{
+		uid: "0914cafb",
+		type: "item",
+		items: [{
+			item: "minecraft:dragon_egg"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "f1eb1679",
+		type: "ftbmoney:money",
+		ftb_money: 500L,
+		random_bonus: 500
+	}]
+}

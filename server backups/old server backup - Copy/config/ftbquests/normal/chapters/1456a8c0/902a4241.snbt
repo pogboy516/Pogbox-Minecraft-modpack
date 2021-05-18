@@ -1,0 +1,32 @@
+{
+	icon: {
+		id: "inventorypets:slime_pet",
+		tag: {
+			GiveItems: 1b
+		}
+	},
+	x: -2.0d,
+	y: -7.5d,
+	dependencies: [
+		"0da09f4f"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "cc663f1a",
+		type: "kill",
+		icon: {
+			id: "inventorypets:slime_pet",
+			tag: {
+				GiveItems: 1b
+			}
+		},
+		entity: "minecraft:slime",
+		value: 20L
+	}],
+	rewards: [{
+		uid: "cf2a0403",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

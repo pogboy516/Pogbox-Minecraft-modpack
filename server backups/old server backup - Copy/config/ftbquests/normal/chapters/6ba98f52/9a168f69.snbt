@@ -1,0 +1,23 @@
+{
+	x: -1.75d,
+	y: 3.15d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"842c9a58"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.7d,
+	tasks: [{
+		uid: "59292f94",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:oxygen_compressor"
+		}]
+	}],
+	rewards: [{
+		uid: "e0565263",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

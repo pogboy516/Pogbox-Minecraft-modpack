@@ -1,0 +1,28 @@
+{
+	x: -3.0d,
+	y: -4.5d,
+	dependencies: [
+		"01c0d31a"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "a7fd522d",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1dfd48dc",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "4b0514fe",
+		type: "loot",
+		table: 1
+	}]
+}

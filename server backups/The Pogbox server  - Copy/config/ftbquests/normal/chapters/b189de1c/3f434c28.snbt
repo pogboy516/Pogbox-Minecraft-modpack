@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	dependencies: [
+		"7dcca615"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "16af5658",
+		type: "item",
+		items: [{
+			item: "ebwizardry:oak_bookshelf"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "3a1ef778",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

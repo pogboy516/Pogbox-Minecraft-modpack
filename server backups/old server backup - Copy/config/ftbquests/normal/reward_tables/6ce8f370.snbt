@@ -1,0 +1,119 @@
+{
+	title: "potion bag",
+	icon: "dungeontactics:bag_potion",
+	loot_size: 2,
+	rewards: [{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:long_regeneration"
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:long_strength"
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:water_breathing"
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:healing"
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:strong_healing"
+			}
+		},
+		weight: 3
+	},
+	{
+		item: {
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "minecraft:strong_healing"
+			}
+		},
+		weight: 3
+	},
+	{
+		item: {
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "extrautils2:xu2.gravity"
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "extrautils2:xu2.doom"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "extrautils2:xu2.greek.fire"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "minecraft:strong_poison"
+			}
+		},
+		weight: 4
+	},
+	{
+		item: {
+			id: "minecraft:lingering_potion",
+			tag: {
+				Potion: "extrautils2:xu2.second.chance"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:lingering_potion",
+			tag: {
+				Potion: "minecraft:long_invisibility"
+			}
+		},
+		weight: 3
+	}],
+	loot_crate: {
+		string_id: "potion_bag",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

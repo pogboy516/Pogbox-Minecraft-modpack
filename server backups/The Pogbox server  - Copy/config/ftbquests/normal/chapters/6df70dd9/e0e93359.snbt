@@ -1,0 +1,27 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"d5528f66"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "bd922eaa",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutsifter"
+		}]
+	}],
+	rewards: [{
+		uid: "b6597444",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "4e5f9da3",
+		type: "random",
+		table: 6
+	}]
+}

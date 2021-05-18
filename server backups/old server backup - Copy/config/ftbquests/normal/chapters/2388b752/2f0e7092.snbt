@@ -1,0 +1,25 @@
+{
+	x: -0.5d,
+	y: 5.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"0807c8d4"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "2bdd1e57",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:arrow_shaft"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "58777524",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

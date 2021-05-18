@@ -1,0 +1,28 @@
+{
+	icon: "minecraft:bed 1 14",
+	x: -6.0d,
+	y: 0.0d,
+	dependencies: [
+		"14071969"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "f1e0ed6f",
+		type: "kill",
+		title: "murder villagers",
+		icon: "minecraft:bed 1 14",
+		entity: "minecraft:villager",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "cf9cb6d0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ef27cd74",
+		type: "loot",
+		table: 5
+	}]
+}

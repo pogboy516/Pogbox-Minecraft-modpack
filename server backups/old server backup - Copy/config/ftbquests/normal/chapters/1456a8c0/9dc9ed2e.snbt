@@ -1,0 +1,33 @@
+{
+	x: 2.0d,
+	y: -5.0d,
+	dependencies: [
+		"bedcd4f5"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "3fb14171",
+		type: "kill",
+		title: "the walking dead 4",
+		icon: "minecraft:skull 1 2",
+		entity: "minecraft:zombie",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "fe0b2e01",
+		type: "item",
+		item: "chancecubes:chance_icosahedron"
+	},
+	{
+		uid: "580a5988",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "fb1f1f14",
+		type: "loot",
+		table: 10
+	}]
+}

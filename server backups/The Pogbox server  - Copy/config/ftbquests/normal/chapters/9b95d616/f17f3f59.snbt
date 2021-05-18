@@ -1,0 +1,15 @@
+{
+	x: 0.5d,
+	y: -8.0d,
+	dependencies: [
+		"42249119"
+	],
+	tasks: [{
+		uid: "8b60aa71",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedcobblestone 1 5"
+		}],
+		count: 7L
+	}]
+}

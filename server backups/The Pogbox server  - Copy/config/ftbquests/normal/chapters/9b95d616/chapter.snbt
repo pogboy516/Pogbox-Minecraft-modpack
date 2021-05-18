@@ -1,0 +1,7 @@
+{
+	title: "Labours of Hercules",
+	icon: "bountifulbaubles:crowngold",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

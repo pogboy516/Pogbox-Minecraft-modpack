@@ -1,0 +1,37 @@
+{
+	x: -1.4d,
+	y: 3.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"2bc9336f"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.7d,
+	tasks: [{
+		uid: "614af52b",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:oxygen_concentrator"
+		}]
+	},
+	{
+		uid: "bdb74de1",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:air_fan"
+		}]
+	},
+	{
+		uid: "5a1acc17",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:air_vent"
+		}]
+	}],
+	rewards: [{
+		uid: "cf36dda8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

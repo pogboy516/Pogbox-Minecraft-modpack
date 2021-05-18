@@ -1,0 +1,28 @@
+{
+	x: -1.75d,
+	y: -11.549999999999999d,
+	dependencies: [
+		"24ef3725"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.7d,
+	tasks: [{
+		uid: "297ec5e5",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "da4618d4",
+		type: "item",
+		item: "lootbags:itemlootbag"
+	},
+	{
+		uid: "2e55444b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

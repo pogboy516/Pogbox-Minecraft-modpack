@@ -1,0 +1,7 @@
+{
+	title: "Adventure time",
+	icon: "minecraft:dark_oak_boat",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

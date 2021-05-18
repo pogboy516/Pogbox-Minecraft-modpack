@@ -1,0 +1,29 @@
+{
+	x: -6.0d,
+	y: 2.5d,
+	dependencies: [
+		"d8c5531d",
+		"95a243c6",
+		"4329a1a7"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "540986af",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:rocket_t1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f45b24b9",
+		type: "choice",
+		table: 10
+	},
+	{
+		uid: "855e765d",
+		type: "item",
+		item: "galacticraftcore:oxygen_tank_med_full"
+	}]
+}

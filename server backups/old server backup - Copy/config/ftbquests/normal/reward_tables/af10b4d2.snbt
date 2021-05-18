@@ -1,0 +1,141 @@
+{
+	title: "enchant bag",
+	icon: "dungeontactics:bag_book",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 70s
+				}]
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 56s
+				}]
+			}
+		},
+		weight: 3
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2s,
+					id: 55s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 50s
+				}]
+			}
+		},
+		weight: 3
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 48s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2s,
+					id: 34s
+				}]
+			}
+		},
+		weight: 4
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 33s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 32s
+				}]
+			}
+		},
+		weight: 4
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 4s,
+					id: 3s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 4s,
+					id: 2s
+				}]
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 4s,
+					id: 1s
+				}]
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "enchant_bag",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

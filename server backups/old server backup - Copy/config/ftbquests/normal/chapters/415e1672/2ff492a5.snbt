@@ -1,0 +1,29 @@
+{
+	x: -6.5d,
+	y: -3.5d,
+	dependencies: [
+		"b30a375c"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.9d,
+	tasks: [{
+		uid: "f486a798",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6e60b59a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "1e9b49c9",
+		type: "item",
+		item: "lootbags:itemlootbag"
+	}]
+}

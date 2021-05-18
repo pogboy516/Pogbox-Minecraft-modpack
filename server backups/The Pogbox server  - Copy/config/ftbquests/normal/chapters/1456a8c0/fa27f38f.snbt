@@ -1,0 +1,28 @@
+{
+	x: -7.5d,
+	y: 2.5d,
+	dependencies: [
+		"c10d3e8e"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 1.25d,
+	tasks: [{
+		uid: "f1b47404",
+		type: "stat",
+		title: "Inconceivable",
+		icon: "mekanismtools:osmiumsword",
+		stat: "stat.mobKills",
+		value: 700
+	}],
+	rewards: [{
+		uid: "0fc4c0b1",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "c59115e3",
+		type: "loot",
+		table: 10
+	}]
+}

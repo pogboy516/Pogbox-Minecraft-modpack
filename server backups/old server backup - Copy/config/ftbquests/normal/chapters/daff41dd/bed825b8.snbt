@@ -1,0 +1,17 @@
+{
+	title: "Bring down the towers!",
+	x: -8.0d,
+	y: -2.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"0bccc184"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "0ba7b9f2",
+		type: "kill",
+		entity: "dungeontactics:towerguardian",
+		value: 10L
+	}]
+}

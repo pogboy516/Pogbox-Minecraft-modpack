@@ -1,0 +1,29 @@
+{
+	x: -2.25d,
+	y: 4.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a0484200"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.9d,
+	tasks: [{
+		uid: "745ecc59",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:solar 1 4"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "520df602",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "65569ea6",
+		type: "item",
+		item: "minecraft:iron_block"
+	}]
+}

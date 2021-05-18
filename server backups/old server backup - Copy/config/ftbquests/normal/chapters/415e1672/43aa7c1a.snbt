@@ -1,0 +1,30 @@
+{
+	x: -7.7d,
+	y: -5.95d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"b30a375c"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.7d,
+	tasks: [{
+		uid: "b85bde4a",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2c369093",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f5ede2c9",
+		type: "loot",
+		table: 6
+	}]
+}

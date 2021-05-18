@@ -1,0 +1,26 @@
+{
+	title: "Withering away 3",
+	icon: "minecraft:skull 1 1",
+	x: 5.0d,
+	y: -4.5d,
+	dependencies: [
+		"bac11ca2"
+	],
+	tasks: [{
+		uid: "b7eeb3b4",
+		type: "kill",
+		title: "Withering away 3",
+		entity: "minecraft:wither_skeleton",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "ac9e2c36",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "acf47493",
+		type: "item",
+		item: "chancecubes:chance_icosahedron"
+	}]
+}

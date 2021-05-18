@@ -1,0 +1,26 @@
+{
+	x: -5.0d,
+	y: -6.5d,
+	dependencies: [
+		"ee6515ca"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "cbdb388b",
+		type: "stat",
+		icon: "waystones:bound_scroll",
+		stat: "stat.bountiesUncommon",
+		value: 10
+	}],
+	rewards: [{
+		uid: "a21847d3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "e18645ff",
+		type: "loot",
+		table: 1
+	}]
+}

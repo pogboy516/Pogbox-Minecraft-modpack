@@ -1,0 +1,29 @@
+{
+	x: -3.6d,
+	y: -2.4d,
+	shape: "gear",
+	dependencies: [
+		"cea3faa9"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "f06bb3c6",
+		type: "item",
+		items: [{
+			item: "buildcraftcore:gear_stone"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "ef3fd702",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "e3ccba8b",
+		type: "loot",
+		table: 6
+	}]
+}

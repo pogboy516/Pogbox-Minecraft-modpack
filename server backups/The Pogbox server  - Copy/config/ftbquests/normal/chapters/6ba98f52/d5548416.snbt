@@ -1,0 +1,29 @@
+{
+	x: -0.8d,
+	y: 0.0d,
+	shape: "rsquare",
+	dependencies: [
+		"d6ddf4fa"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "87860e54",
+		type: "item",
+		items: [{
+			item: "buildcrafttransport:pipe_stone_item"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "3eb922be",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ddc8de7a",
+		type: "loot",
+		table: 6
+	}]
+}

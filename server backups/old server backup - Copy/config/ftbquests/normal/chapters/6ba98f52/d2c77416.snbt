@@ -1,0 +1,23 @@
+{
+	x: -3.15d,
+	y: 0.8999999999999999d,
+	dependencies: [
+		"cc64dffd"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.9d,
+	tasks: [{
+		uid: "c148cd73",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:aluminum_wire"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "22913651",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: -8.5d,
+	y: -10.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"178e078e"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "8ee69a9e",
+		type: "item",
+		items: [{
+			item: "minecraft:enchanting_table"
+		}],
+		consume_items: true,
+		ignore_nbt: 2b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "0060fe69",
+		type: "ftbmoney:money",
+		ftb_money: 50L,
+		random_bonus: 50
+	},
+	{
+		uid: "b6dd7f66",
+		type: "loot",
+		table: 8
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: -8.0d,
+	y: -8.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"3a3c65c8"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.8d,
+	optional: true,
+	tasks: [{
+		uid: "a29013ce",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		count: 64L,
+		consume_items: true,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "5df3f6d1",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "8e19170f",
+		type: "item",
+		item: "dungeontactics:bag_ore"
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	icon: "minecraft:ghast_tear",
+	x: -7.0d,
+	y: -3.5d,
+	dependencies: [
+		"866c8517"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "39db83d1",
+		type: "kill",
+		entity: "minecraft:ghast",
+		value: 30L
+	},
+	{
+		uid: "a5ce1cbe",
+		type: "item",
+		items: [{
+			item: "minecraft:netherrack"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "a7278746",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ebe6b22d",
+		type: "item",
+		item: "lootbags:itemlootbag 1 1"
+	}]
+}

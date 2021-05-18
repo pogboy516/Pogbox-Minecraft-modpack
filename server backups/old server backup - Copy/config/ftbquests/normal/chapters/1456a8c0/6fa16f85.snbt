@@ -1,0 +1,29 @@
+{
+	x: -8.4d,
+	y: -2.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"01ad30e7"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "1d81a4c6",
+		type: "stat",
+		title: "Killing Frenzy",
+		icon: "minecraft:stone_sword",
+		stat: "stat.mobKills",
+		value: 200
+	}],
+	rewards: [{
+		uid: "4027997b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "d2c30e7b",
+		type: "item",
+		item: "lootbags:itemlootbag 1 1"
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: -6.0d,
+	y: -6.0d,
+	dependencies: [
+		"99611bf7"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "9b3b039c",
+		type: "stat",
+		icon: "waystones:bound_scroll",
+		stat: "stat.bountiesCommon",
+		value: 10
+	}],
+	rewards: [{
+		uid: "0fbd042a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "b264db92",
+		type: "loot",
+		table: 1
+	}]
+}

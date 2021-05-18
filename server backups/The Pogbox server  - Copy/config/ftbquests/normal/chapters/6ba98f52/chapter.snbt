@@ -1,0 +1,7 @@
+{
+	title: "Automation and Machines",
+	icon: "buildcraftcore:engine",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "diamond"
+}

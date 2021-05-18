@@ -1,0 +1,45 @@
+{
+	title: "bring hell home with you",
+	x: -3.5d,
+	y: -10.5d,
+	dependencies: [
+		"d9910d56"
+	],
+	tasks: [{
+		uid: "9f0381ab",
+		type: "item",
+		items: [{
+			item: "minecraft:netherrack"
+		}],
+		count: 64L
+	},
+	{
+		uid: "9f8f8e86",
+		type: "item",
+		items: [{
+			item: "minecraft:soul_sand"
+		}],
+		count: 64L
+	},
+	{
+		uid: "f0713e53",
+		type: "item",
+		items: [{
+			item: "minecraft:lava_bucket"
+		}],
+		count: 3L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bc431c60",
+		type: "ftbmoney:money",
+		ftb_money: 100L,
+		random_bonus: 50
+	},
+	{
+		uid: "0995b76a",
+		type: "loot",
+		table: 1
+	}]
+}

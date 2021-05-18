@@ -1,0 +1,25 @@
+{
+	x: -8.049999999999999d,
+	y: -3.5d,
+	dependencies: [
+		"a7ab0bf3"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.7d,
+	tasks: [{
+		uid: "afe0d592",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "9ad47f3b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

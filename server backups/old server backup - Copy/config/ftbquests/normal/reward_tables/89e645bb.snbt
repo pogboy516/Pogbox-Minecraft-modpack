@@ -1,0 +1,126 @@
+{
+	title: "weapons lootbag 2",
+	icon: "lootbags:itemlootbag",
+	loot_size: 1,
+	rewards: [{
+		item: "dungeontactics:diamond_cutlass"
+	},
+	{
+		item: "mekanismtools:lapislazulisword",
+		weight: 3
+	},
+	{
+		item: "dungeontactics:master_cestus_pummel",
+		weight: 2
+	},
+	{
+		item: "ebwizardry:apprentice_wand"
+	},
+	{
+		item: "dungeontactics:diamond_glaive"
+	},
+	{
+		item: {
+			id: "minecraft:iron_sword",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 51s
+				},
+				{
+					lvl: 3s,
+					id: 21s
+				},
+				{
+					lvl: 2s,
+					id: 25s
+				},
+				{
+					lvl: 2s,
+					id: 19s
+				}],
+				RepairCost: 15,
+				display: {
+					Name: "Holy War longsword"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:bow",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 51s
+				}],
+				RepairCost: 1
+			}
+		},
+		weight: 2
+	},
+	{
+		item: "dungeontactics:iron_shield",
+		weight: 3
+	},
+	{
+		item: {
+			id: "tconstruct:broadsword",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 7.0f,
+					FreeModifiers: 3,
+					Durability: 724,
+					HarvestLevel: 3,
+					Attack: 7.0f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 7.0f,
+					FreeModifiers: 3,
+					Durability: 724,
+					HarvestLevel: 3,
+					Attack: 7.0f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"steel",
+						"steel",
+						"steel"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "stiff",
+					color: -5789785,
+					level: 1
+				},
+				{
+					identifier: "sharp",
+					color: -5789785,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"stiff",
+					"sharp",
+					"toolleveling"
+				]
+			}
+		},
+		weight: 3
+	}]
+}

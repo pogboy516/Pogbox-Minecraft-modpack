@@ -1,0 +1,31 @@
+{
+	title: "Tome of Arcana Apprentace",
+	x: -1.0d,
+	y: -1.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"6beee78b"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "93de66a9",
+		type: "item",
+		items: [{
+			item: "ebwizardry:arcane_tome 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "642ce3b4",
+		type: "ftbmoney:money",
+		ftb_money: 50L,
+		random_bonus: 50
+	},
+	{
+		uid: "d7bcb3bb",
+		type: "loot",
+		table: 3
+	}]
+}

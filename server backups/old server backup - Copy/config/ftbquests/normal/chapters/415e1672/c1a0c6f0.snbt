@@ -1,0 +1,34 @@
+{
+	x: -6.5d,
+	y: -2.0d,
+	dependencies: [
+		"2ff492a5"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "4520106b",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "19b40a7c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "40d904f5",
+		type: "item",
+		item: "dungeontactics:bag_tool"
+	},
+	{
+		uid: "76692ed6",
+		type: "item",
+		item: "minecraft:grass"
+	}]
+}

@@ -1,0 +1,57 @@
+{
+	title: "weapons lootbag 1",
+	icon: "lootbags:itemlootbag",
+	loot_size: 2,
+	hide_tooltip: true,
+	rewards: [{
+		item: "minecraft:iron_sword",
+		weight: 2
+	},
+	{
+		item: "minecraft:stone_sword",
+		weight: 5
+	},
+	{
+		item: "dungeontactics:bone_sword",
+		weight: 4
+	},
+	{
+		item: "minecraft:bow",
+		weight: 5
+	},
+	{
+		item: "minecraft:arrow",
+		count: 24,
+		weight: 3
+	},
+	{
+		item: "minecraft:arrow",
+		count: 64,
+		weight: 2
+	},
+	{
+		item: {
+			id: "minecraft:bow",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 51s
+				}],
+				RepairCost: 1
+			}
+		},
+		weight: 4
+	},
+	{
+		item: "dungeontactics:diamond_cutlass"
+	}],
+	loot_crate: {
+		string_id: "weapons_lootbag_1",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

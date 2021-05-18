@@ -1,0 +1,37 @@
+{
+	title: "where are you going?",
+	x: -7.5d,
+	y: -10.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"911eb041"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "2bb9eec5",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 12L,
+		only_from_crafting: false
+	}],
+	rewards: [{
+		uid: "e1f20e0f",
+		type: "ftbmoney:money",
+		ftb_money: 50L,
+		random_bonus: 50
+	},
+	{
+		uid: "31c86f7e",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 12
+	},
+	{
+		uid: "ad27eccd",
+		type: "item",
+		item: "minecraft:flint_and_steel"
+	}]
+}

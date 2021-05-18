@@ -1,0 +1,28 @@
+{
+	title: "bone collector 2",
+	icon: "minecraft:skull",
+	x: -2.0d,
+	y: -2.0d,
+	dependencies: [
+		"ee87090d"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 1.25d,
+	tasks: [{
+		uid: "bfeeec2e",
+		type: "kill",
+		entity: "minecraft:skeleton",
+		value: 30L
+	}],
+	rewards: [{
+		uid: "506fda91",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "57eaf601",
+		type: "loot",
+		table: 2
+	}]
+}

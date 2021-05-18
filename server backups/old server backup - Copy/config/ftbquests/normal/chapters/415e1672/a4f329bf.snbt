@@ -1,0 +1,55 @@
+{
+	x: -2.8d,
+	y: -2.4d,
+	dependencies: [
+		"2910d9c0"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "bab007b6",
+		type: "item",
+		items: [{
+			item: "minecraft:sticky_piston"
+		}],
+		consume_items: true,
+		only_from_crafting: true
+	},
+	{
+		uid: "99991a4e",
+		type: "item",
+		items: [{
+			item: "minecraft:slime_ball"
+		}],
+		count: 10L,
+		consume_items: true
+	},
+	{
+		uid: "6c30aee4",
+		type: "kill",
+		icon: {
+			id: "inventorypets:slime_pet",
+			tag: {
+				GiveItems: 1b
+			}
+		},
+		disable_toast: true,
+		entity: "minecraft:slime",
+		value: 15L
+	}],
+	rewards: [{
+		uid: "f0e3a670",
+		type: "ftbmoney:money",
+		ftb_money: 50L,
+		random_bonus: 50
+	},
+	{
+		uid: "b8dcae94",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "972df83a",
+		type: "loot",
+		table: 1
+	}]
+}

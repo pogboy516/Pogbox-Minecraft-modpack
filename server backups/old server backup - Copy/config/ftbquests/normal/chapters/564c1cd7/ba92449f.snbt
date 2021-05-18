@@ -1,0 +1,24 @@
+{
+	x: -1.5d,
+	y: -8.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"43e94508"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "b1f4654d",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_powder"
+		}],
+		count: 25L,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "f88262b4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

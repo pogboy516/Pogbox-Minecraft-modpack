@@ -1,0 +1,35 @@
+{
+	x: -7.5d,
+	y: -1.0d,
+	dependencies: [
+		"b65c07ec"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e407fd46",
+		type: "item",
+		items: [{
+			item: "minecraft:snowball"
+		}],
+		count: 124L,
+		consume_items: true
+	},
+	{
+		uid: "9d1c81cb",
+		type: "item",
+		items: [{
+			item: "minecraft:gravel"
+		}],
+		count: 24L
+	}],
+	rewards: [{
+		uid: "0a513c97",
+		type: "item",
+		item: "minecraft:pumpkin"
+	},
+	{
+		uid: "04c8fcab",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

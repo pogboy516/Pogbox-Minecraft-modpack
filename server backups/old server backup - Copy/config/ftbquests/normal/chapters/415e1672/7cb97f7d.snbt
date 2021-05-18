@@ -1,0 +1,28 @@
+{
+	x: -0.7d,
+	y: -11.549999999999999d,
+	dependencies: [
+		"6080779f"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.7d,
+	tasks: [{
+		uid: "1ecf1974",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone_lamp"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "b978cab8",
+		type: "item",
+		item: "lootbags:itemlootbag"
+	},
+	{
+		uid: "e705b23a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

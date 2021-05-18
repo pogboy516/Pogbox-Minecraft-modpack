@@ -1,0 +1,23 @@
+{
+	x: -3.15d,
+	y: 3.5999999999999996d,
+	dependencies: [
+		"2886a49e"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.9d,
+	tasks: [{
+		uid: "2c43ee6b",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:basic_item 1 10"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "2c6b87fb",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	x: -2.4d,
+	y: -10.8d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"d9910d56"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "b2c675c0",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_rod"
+		}],
+		count: 12L
+	},
+	{
+		uid: "299024a1",
+		type: "kill",
+		icon: "inventorypets:blaze_pet",
+		disable_toast: true,
+		entity: "minecraft:blaze",
+		value: 5L
+	}],
+	rewards: [{
+		uid: "3ccf9c93",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "259af57c",
+		type: "loot",
+		table: 3
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -7.5d,
+	y: -1.5d,
+	can_repeat: true,
+	size: 0.75d,
+	tasks: [{
+		uid: "025ab6a3",
+		type: "item",
+		items: [{
+			item: "minecraft:cake"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e49b0f2b",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

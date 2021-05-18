@@ -1,0 +1,28 @@
+{
+	icon: "minecraft:golden_sword",
+	x: -8.5d,
+	y: -0.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"44677817"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "913af845",
+		type: "stat",
+		title: "Rampage",
+		stat: "stat.mobKills",
+		value: 400
+	}],
+	rewards: [{
+		uid: "5528c9db",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "acf6fcda",
+		type: "item",
+		item: "lootbags:itemlootbag 1 4"
+	}]
+}

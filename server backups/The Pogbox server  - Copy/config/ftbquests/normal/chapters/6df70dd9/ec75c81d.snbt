@@ -1,0 +1,35 @@
+{
+	x: 3.0d,
+	y: -3.0d,
+	dependencies: [
+		"19987d8c"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "350f2b29",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutwarehouse"
+		}],
+		only_from_crafting: true
+	},
+	{
+		uid: "ab8ff59d",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutdeliveryman"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "0e84a737",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "8bc2131b",
+		type: "item",
+		item: "lootbags:itemlootbag 1 1"
+	}]
+}

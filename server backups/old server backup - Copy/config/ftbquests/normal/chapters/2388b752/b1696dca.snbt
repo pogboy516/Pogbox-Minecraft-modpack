@@ -1,0 +1,25 @@
+{
+	x: -0.5d,
+	y: 1.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"0807c8d4"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "29288aa2",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "plustic:laser_medium"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "0e76e6f0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

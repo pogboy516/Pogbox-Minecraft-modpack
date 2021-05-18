@@ -1,0 +1,28 @@
+{
+	x: -8.0d,
+	y: -8.8d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"2ff492a5"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "46905d62",
+		type: "item",
+		items: [{
+			item: "extrautils2:compresseddirt"
+		}],
+		consume_items: false,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "f7a16ffe",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "e2e4440b",
+		type: "item",
+		item: "dungeontactics:bag_tool"
+	}]
+}

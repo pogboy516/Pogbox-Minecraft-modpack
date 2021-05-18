@@ -1,0 +1,25 @@
+{
+	x: -0.5d,
+	y: 4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"0807c8d4"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "7999f43d",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:sword_blade"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "a45d5197",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

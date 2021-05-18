@@ -1,0 +1,22 @@
+{
+	x: -4.05d,
+	y: 0.8999999999999999d,
+	dependencies: [
+		"cc64dffd"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.9d,
+	tasks: [{
+		uid: "62430e4a",
+		type: "item",
+		items: [{
+			item: "ic2:ingot 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "71ca87b6",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

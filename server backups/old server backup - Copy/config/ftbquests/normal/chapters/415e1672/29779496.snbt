@@ -1,0 +1,37 @@
+{
+	x: -5.0d,
+	y: -5.0d,
+	dependencies: [
+		"b30a375c"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.9d,
+	tasks: [{
+		uid: "419faafe",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "62ed1470",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "7946df45",
+		type: "item",
+		item: "minecraft:log",
+		count: 24
+	},
+	{
+		uid: "82b90eaf",
+		type: "item",
+		item: "minecraft:log 1 1",
+		count: 24
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	x: 2.0d,
+	y: -3.0d,
+	dependencies: [
+		"ede43494"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "fa3b92bc",
+		type: "stat",
+		title: "About as hard as it gets.",
+		icon: "waystones:bound_scroll",
+		stat: "stat.bountiesEpic",
+		value: 70
+	}],
+	rewards: [{
+		uid: "534a643a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "b2f14753",
+		type: "item",
+		item: "minecraft:diamond_block",
+		count: 12
+	},
+	{
+		uid: "e3de4076",
+		type: "random",
+		table: 10
+	}]
+}

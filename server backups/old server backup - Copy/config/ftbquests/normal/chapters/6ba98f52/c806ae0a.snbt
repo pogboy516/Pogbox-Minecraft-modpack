@@ -1,0 +1,46 @@
+{
+	x: -4.5d,
+	y: 1.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"63a67896"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "88a8bc8e",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:oxygen_mask"
+		}]
+	},
+	{
+		uid: "a09298e5",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:oxygen_gear"
+		}]
+	},
+	{
+		uid: "9ea7f551",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:oxygen_tank_light_full 1 900"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6575dc95",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:parachute"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4c2db0b2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

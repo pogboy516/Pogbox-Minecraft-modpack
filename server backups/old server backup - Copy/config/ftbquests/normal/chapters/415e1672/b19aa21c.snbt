@@ -1,0 +1,62 @@
+{
+	title: "good wood?",
+	x: -9.45d,
+	y: -4.55d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"3d446fd1"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.7d,
+	optional: true,
+	tasks: [{
+		uid: "62d828bb",
+		type: "item",
+		items: [{
+			item: "minecraft:log"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "630e183a",
+		type: "item",
+		items: [{
+			item: "minecraft:log 1 1"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "ce2a1646",
+		type: "item",
+		items: [{
+			item: "minecraft:log 1 2"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "c6843996",
+		type: "item",
+		item: "minecraft:golden_apple 1 1"
+	},
+	{
+		uid: "ba42167c",
+		type: "item",
+		item: "minecraft:ender_eye",
+		count: 3
+	},
+	{
+		uid: "ca247fe7",
+		type: "ftbmoney:money",
+		ftb_money: 50L,
+		random_bonus: 150
+	},
+	{
+		uid: "0fd5b289",
+		type: "loot",
+		table: 2
+	}]
+}

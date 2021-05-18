@@ -1,0 +1,28 @@
+{
+	x: -2.6999999999999997d,
+	y: 2.25d,
+	dependencies: [
+		"65800242"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.9d,
+	tasks: [{
+		uid: "0a1d4133",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:machine 1 12"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "d47539c6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "6ac6625a",
+		type: "item",
+		item: "minecraft:iron_block"
+	}]
+}

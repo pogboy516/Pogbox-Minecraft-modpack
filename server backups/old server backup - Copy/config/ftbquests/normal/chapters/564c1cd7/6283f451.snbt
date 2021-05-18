@@ -1,0 +1,30 @@
+{
+	x: -4.5d,
+	y: -10.0d,
+	dependencies: [
+		"4016b257"
+	],
+	tasks: [{
+		uid: "9020c4b9",
+		type: "item",
+		items: [{
+			item: "minecraft:enchanting_table"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "adc1ee34",
+		type: "item",
+		item: "minecraft:diamond"
+	},
+	{
+		uid: "05b31df4",
+		type: "item",
+		item: "dungeontactics:bag_magic"
+	},
+	{
+		uid: "afb88d37",
+		type: "random",
+		table: 8
+	}]
+}

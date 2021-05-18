@@ -1,0 +1,16 @@
+{
+	x: -1.5d,
+	y: -4.0d,
+	dependencies: [
+		"4dabb6d9"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "c7373852",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 5"
+		}]
+	}]
+}

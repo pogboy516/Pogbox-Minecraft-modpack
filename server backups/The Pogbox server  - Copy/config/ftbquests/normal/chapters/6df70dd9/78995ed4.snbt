@@ -1,0 +1,31 @@
+{
+	x: 0.0d,
+	y: -3.0d,
+	dependencies: [
+		"19987d8c"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "10b87b6c",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutguardtower"
+		}]
+	}],
+	rewards: [{
+		uid: "8d878d6d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "43054a7c",
+		type: "item",
+		item: "waystones:waystone"
+	},
+	{
+		uid: "a3ea3ae4",
+		type: "item",
+		item: "lootbags:itemlootbag 1 1"
+	}]
+}

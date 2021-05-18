@@ -1,0 +1,47 @@
+{
+	title: "the fishing life for me",
+	x: -4.0d,
+	y: -4.0d,
+	dependencies: [
+		"823009d3"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "efcee515",
+		type: "stat",
+		icon: "minecraft:fish",
+		stat: "stat.fishCaught",
+		value: 100
+	}],
+	rewards: [{
+		uid: "faee1a68",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 62s
+				}]
+			}
+		}
+	},
+	{
+		uid: "f57b291f",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 61s
+				}]
+			}
+		}
+	},
+	{
+		uid: "2b2d79bc",
+		type: "item",
+		item: "minecraft:fishing_rod"
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "To the moon",
+	x: -7.0d,
+	y: 2.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"99b869e3"
+	],
+	tasks: [{
+		uid: "e2384fed",
+		type: "dimension",
+		dim: -28
+	}],
+	rewards: [{
+		uid: "05e9ef48",
+		type: "ftbmoney:money",
+		ftb_money: 100L,
+		random_bonus: 100
+	},
+	{
+		uid: "1ac5afdd",
+		type: "item",
+		item: "waystones:waystone"
+	}]
+}

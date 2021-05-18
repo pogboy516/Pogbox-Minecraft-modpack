@@ -1,0 +1,22 @@
+{
+	x: -4.8999999999999995d,
+	y: -8.4d,
+	dependencies: [
+		"c4433e30"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.7d,
+	tasks: [{
+		uid: "d6230960",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "2d587da0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

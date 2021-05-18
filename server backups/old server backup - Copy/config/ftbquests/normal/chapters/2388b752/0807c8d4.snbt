@@ -1,0 +1,15 @@
+{
+	x: -0.5d,
+	y: -1.5d,
+	dependencies: [
+		"4dabb6d9"
+	],
+	tasks: [{
+		uid: "6619cf48",
+		type: "item",
+		items: [{
+			item: "tconstruct:pattern"
+		}],
+		only_from_crafting: true
+	}]
+}

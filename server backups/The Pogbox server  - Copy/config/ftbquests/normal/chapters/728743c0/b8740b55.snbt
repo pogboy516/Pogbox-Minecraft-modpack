@@ -1,0 +1,20 @@
+{
+	x: -6.0d,
+	y: -3.0d,
+	can_repeat: true,
+	size: 0.75d,
+	tasks: [{
+		uid: "d788910d",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat_seeds"
+		}],
+		count: 25L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "ea2d96ea",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	x: -5.5d,
+	y: -3.0d,
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"5474519d"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "5358bfb2",
+		type: "item",
+		items: [{
+			item: "minecraft:sand"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "2045e3ca",
+		type: "item",
+		items: [{
+			item: "minecraft:glass"
+		}],
+		count: 24L,
+		consume_items: true,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "723c06a6",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "a7efc07b",
+		type: "loot",
+		table: 2
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -8.8d,
+	y: -8.8d,
+	dependencies: [
+		"e6a6fd01"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "a805f9f2",
+		type: "item",
+		items: [{
+			item: "extrautils2:compresseddirt 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "25c9c7e6",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

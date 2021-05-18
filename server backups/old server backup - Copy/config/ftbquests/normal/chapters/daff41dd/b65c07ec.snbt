@@ -1,0 +1,20 @@
+{
+	title: "Visit Biome Mountains",
+	icon: "minecraft:stone",
+	x: -5.5d,
+	y: -1.0d,
+	dependencies: [
+		"f6907499"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dd69adba",
+		type: "biome",
+		biome: "minecraft:extreme_hills"
+	}],
+	rewards: [{
+		uid: "a08754c2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

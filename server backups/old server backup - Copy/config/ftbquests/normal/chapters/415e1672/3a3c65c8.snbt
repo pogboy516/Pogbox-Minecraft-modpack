@@ -1,0 +1,29 @@
+{
+	x: -6.5d,
+	y: -6.5d,
+	dependencies: [
+		"b30a375c"
+	],
+	size: 0.9d,
+	tasks: [{
+		uid: "ebf78ba6",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "a066c5ca",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "17797f42",
+		type: "item",
+		item: "minecraft:emerald",
+		count: 5
+	}]
+}

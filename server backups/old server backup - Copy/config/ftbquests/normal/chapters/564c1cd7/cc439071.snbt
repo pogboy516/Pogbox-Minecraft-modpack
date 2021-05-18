@@ -1,0 +1,26 @@
+{
+	title: "Getting an Upgrade",
+	x: -6.0d,
+	y: -1.5d,
+	dependencies: [
+		"5ae47167"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "17f79cef",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "885c9fb1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

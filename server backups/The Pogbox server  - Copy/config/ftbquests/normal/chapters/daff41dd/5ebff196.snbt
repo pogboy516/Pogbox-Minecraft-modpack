@@ -1,0 +1,18 @@
+{
+	x: -10.5d,
+	y: -4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"0bccc184"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "2348a48f",
+		type: "stat",
+		title: "Sail the seas",
+		icon: "minecraft:spruce_boat",
+		stat: "stat.boatOneCm",
+		value: 1000000
+	}]
+}

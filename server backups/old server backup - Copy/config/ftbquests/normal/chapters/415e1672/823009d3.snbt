@@ -1,0 +1,32 @@
+{
+	x: -4.8d,
+	y: -4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"b30a375c"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "77a961af",
+		type: "item",
+		items: [{
+			item: "minecraft:fishing_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b61880fd",
+		type: "ftbmoney:money",
+		ftb_money: 50L,
+		random_bonus: 50
+	},
+	{
+		uid: "6becb66a",
+		type: "item",
+		item: "minecraft:fish",
+		count: 15
+	}]
+}

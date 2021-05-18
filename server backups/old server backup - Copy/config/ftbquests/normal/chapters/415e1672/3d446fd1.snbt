@@ -1,0 +1,32 @@
+{
+	title: "doesn't that hurt your hands?",
+	x: -10.5d,
+	y: -5.0d,
+	shape: "hexagon",
+	size: 1.25d,
+	tasks: [{
+		uid: "c3a615c8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}],
+		consume_items: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8f86cf0d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -5.6d,
+	y: -6.6499999999999995d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"3a3c65c8"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "e67300fd",
+		type: "item",
+		items: [{
+			item: "minecraft:coal"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "649e7b3e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

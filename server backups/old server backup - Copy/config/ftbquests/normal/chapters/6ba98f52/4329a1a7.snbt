@@ -1,0 +1,22 @@
+{
+	x: -4.8999999999999995d,
+	y: 2.8d,
+	dependencies: [
+		"bc7a4e3c"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.7d,
+	tasks: [{
+		uid: "7cefb17f",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:nose_cone"
+		}]
+	}],
+	rewards: [{
+		uid: "143828c4",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

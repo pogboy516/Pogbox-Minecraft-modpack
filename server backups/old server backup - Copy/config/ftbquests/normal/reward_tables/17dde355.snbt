@@ -1,0 +1,46 @@
+{
+	title: "food bag 1",
+	icon: "dungeontactics:bag_mystery",
+	loot_size: 1,
+	rewards: [{
+		item: "minecraft:apple",
+		count: 10,
+		weight: 3
+	},
+	{
+		item: "minecraft:mushroom_stew",
+		weight: 2
+	},
+	{
+		item: "minecraft:potato",
+		count: 24
+	},
+	{
+		item: "minecraft:cooked_chicken",
+		count: 4,
+		weight: 2
+	},
+	{
+		item: "minecraft:melon",
+		count: 64,
+		weight: 5
+	},
+	{
+		item: "minecraft:cooked_beef",
+		count: 12,
+		weight: 2
+	},
+	{
+		item: "minecraft:cooked_fish",
+		count: 24,
+		weight: 2
+	},
+	{
+		item: "minecraft:golden_apple"
+	},
+	{
+		item: "minecraft:bread",
+		count: 64,
+		weight: 5
+	}]
+}

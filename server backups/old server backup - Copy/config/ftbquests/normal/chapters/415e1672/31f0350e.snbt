@@ -1,0 +1,24 @@
+{
+	x: -4.2d,
+	y: -6.8999999999999995d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"5474519d"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.6d,
+	tasks: [{
+		uid: "3b513847",
+		type: "item",
+		items: [{
+			item: "minecraft:cooked_porkchop"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "6105f301",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

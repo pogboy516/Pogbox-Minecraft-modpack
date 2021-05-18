@@ -1,0 +1,28 @@
+{
+	x: -2.0d,
+	y: -1.6d,
+	dependencies: [
+		"0d2f71fa"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "1df42176",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone_torch"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "a9e340b6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "8d713381",
+		type: "loot",
+		table: 6
+	}]
+}

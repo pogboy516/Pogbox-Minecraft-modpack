@@ -1,0 +1,33 @@
+{
+	title: "setting up your quarry",
+	x: -0.5d,
+	y: -2.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"cea3faa9"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "2f35ee3c",
+		type: "item",
+		items: [{
+			item: "buildcraftcore:marker_volume"
+		}],
+		count: 15L,
+		only_from_crafting: true
+	},
+	{
+		uid: "e5de9756",
+		type: "item",
+		items: [{
+			item: "buildcraftbuilders:quarry"
+		}]
+	}],
+	rewards: [{
+		uid: "4ba0ad1c",
+		type: "ftbmoney:money",
+		ftb_money: 50L,
+		random_bonus: 50
+	}]
+}
