@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: -1.5d,
+	can_repeat: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "f8c2fd89",
+		type: "item",
+		items: [{
+			item: "minecraft:string"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "e5ffb2fa",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

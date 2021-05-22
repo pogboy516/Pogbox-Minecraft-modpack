@@ -1,0 +1,12 @@
+{
+	x: -12.0d,
+	y: -6.0d,
+	text: [
+		"It is suggested that you have end game gear before you attempt this questline. it is not for the faint of heart and isn't designed to be fair. goodluck and may god have mercey on your soul."
+	],
+	tasks: [{
+		uid: "eb02b986",
+		type: "checkmark",
+		title: "Are you sure you wanna do this "
+	}]
+}

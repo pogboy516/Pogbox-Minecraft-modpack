@@ -1,0 +1,16 @@
+{
+	title: "now i want levels",
+	x: 0.5d,
+	y: -6.0d,
+	dependencies: [
+		"5eb99445",
+		"420295c8",
+		"37784cbe"
+	],
+	tasks: [{
+		uid: "2d5631f0",
+		type: "xp",
+		value: 30L,
+		points: false
+	}]
+}
