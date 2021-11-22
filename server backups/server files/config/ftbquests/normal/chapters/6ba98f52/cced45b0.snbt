@@ -1,0 +1,28 @@
+{
+	x: -5.5d,
+	y: 0.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"d9369364"
+	],
+	tasks: [{
+		uid: "ce2ad315",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 6"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d50dd0a4",
+		type: "ftbmoney:money",
+		ftb_money: 50L,
+		random_bonus: 50
+	},
+	{
+		uid: "122075b5",
+		type: "item",
+		item: "galacticraftcore:aluminum_wire",
+		count: 30
+	}]
+}

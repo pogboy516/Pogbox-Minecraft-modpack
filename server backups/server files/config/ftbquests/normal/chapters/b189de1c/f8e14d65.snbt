@@ -1,0 +1,28 @@
+{
+	x: -3.6d,
+	y: -3.6d,
+	dependencies: [
+		"6beee78b"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "f1d76ad8",
+		type: "item",
+		items: [{
+			item: "ebwizardry:oak_lectern"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "ad5385f7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "dac16dcc",
+		type: "item",
+		item: "dungeontactics:bag_potion"
+	}]
+}

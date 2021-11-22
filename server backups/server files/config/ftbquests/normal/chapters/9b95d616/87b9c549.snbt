@@ -1,0 +1,23 @@
+{
+	title: "kill the Wither",
+	x: -5.5d,
+	y: -4.0d,
+	dependencies: [
+		"99116903",
+		"a0df608c"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "a9e50a1a",
+		type: "kill",
+		icon: "minecraft:skull 1 1",
+		entity: "minecraft:wither",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "edda97f4",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "You dont need the level right?",
+	x: -0.5d,
+	y: -2.5d,
+	dependencies: [
+		"40307a4c",
+		"9c21aeaa"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "5a14c1c4",
+		type: "item",
+		items: [{
+			item: "minecraft:experience_bottle"
+		}],
+		count: 20L
+	}],
+	rewards: [{
+		uid: "31bbe667",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

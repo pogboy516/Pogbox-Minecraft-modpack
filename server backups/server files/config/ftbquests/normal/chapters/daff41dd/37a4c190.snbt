@@ -1,0 +1,28 @@
+{
+	x: -9.5d,
+	y: -4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"0bccc184"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "4bd875f2",
+		type: "stat",
+		title: "i would walk 10000000 miles",
+		icon: "ebwizardry:wizard_boots_healing",
+		stat: "stat.walkOneCm",
+		value: 10000000
+	}],
+	rewards: [{
+		uid: "8f8fcf1d",
+		type: "loot",
+		table: 6
+	},
+	{
+		uid: "50f6a9d3",
+		type: "random",
+		table: 3
+	}]
+}

@@ -1,0 +1,61 @@
+{
+	title: "Bring me these",
+	x: -5.5d,
+	y: -5.5d,
+	dependencies: [
+		"a1787368",
+		"a18ec577"
+	],
+	tasks: [{
+		uid: "6ba7479a",
+		type: "item",
+		items: [{
+			id: "minecraft:diamond_chestplate",
+			tag: {
+				ench: [{
+					lvl: 4s,
+					id: 0s
+				},
+				{
+					lvl: 3s,
+					id: 34s
+				}],
+				RepairCost: 1
+			},
+			Damage: 26s
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6a6beb0f",
+		type: "item",
+		items: [{
+			id: "minecraft:diamond_helmet",
+			tag: {
+				ench: [{
+					lvl: 4s,
+					id: 1s
+				},
+				{
+					lvl: 3s,
+					id: 34s
+				}],
+				RepairCost: 3
+			},
+			Damage: 32s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3244fe5b",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

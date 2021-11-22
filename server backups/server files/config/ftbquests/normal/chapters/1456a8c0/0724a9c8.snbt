@@ -1,0 +1,27 @@
+{
+	x: -1.5d,
+	y: 2.0d,
+	dependencies: [
+		"9ebeb25f"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "6da05994",
+		type: "kill",
+		title: "Kill zombie pigmen 2",
+		icon: "minecraft:gold_nugget",
+		entity: "minecraft:zombie_pigman",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "2eaaec8a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "dec70018",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	}]
+}

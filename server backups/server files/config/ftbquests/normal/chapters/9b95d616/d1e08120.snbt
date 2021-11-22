@@ -1,0 +1,58 @@
+{
+	title: "This is how it starts",
+	x: -8.5d,
+	y: -5.5d,
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "74b6ad9c",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_block"
+		}],
+		count: 10L,
+		consume_items: true,
+		only_from_crafting: false
+	},
+	{
+		uid: "83c07174",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_block"
+		}],
+		count: 64L
+	},
+	{
+		uid: "e6d3b0b9",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_block"
+		}],
+		count: 64L
+	},
+	{
+		uid: "b304f755",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone"
+		}],
+		count: 128L
+	},
+	{
+		uid: "7939abd0",
+		type: "item",
+		items: [{
+			item: "minecraft:end_stone"
+		}],
+		count: 128L
+	}],
+	rewards: [{
+		uid: "4b0d1287",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "026f8762",
+		type: "loot",
+		table: 13
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: -3.0d,
+	y: 1.0d,
+	dependencies: [
+		"14071969"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "caa61669",
+		type: "kill",
+		title: "Kill zombie pigmen ",
+		icon: "minecraft:gold_nugget",
+		entity: "minecraft:zombie_pigman",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "ba582062",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ffc70ea6",
+		type: "loot",
+		table: 6
+	}]
+}

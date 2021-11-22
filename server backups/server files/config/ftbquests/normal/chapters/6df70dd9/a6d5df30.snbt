@@ -1,0 +1,21 @@
+{
+	x: 1.0d,
+	y: 1.5d,
+	dependencies: [
+		"02379f64"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "33cc748b",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutcowboy"
+		}]
+	}],
+	rewards: [{
+		uid: "3a4a8a00",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

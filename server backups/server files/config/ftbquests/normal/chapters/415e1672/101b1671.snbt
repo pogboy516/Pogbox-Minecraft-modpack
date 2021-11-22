@@ -1,0 +1,96 @@
+{
+	title: "did you die?",
+	x: -11.2d,
+	y: -6.3d,
+	shape: "diamond",
+	text: [
+		"for resetting your coin count after you die. (visual glitch fix)"
+	],
+	can_repeat: true,
+	size: 0.7d,
+	tasks: [{
+		uid: "55c90ae4",
+		type: "item",
+		items: [{
+			id: "gravestone:death_info",
+			tag: {
+				info: {
+					pos_y: 14,
+					pos_z: 0,
+					pos_x: 0,
+					name: "POGBOYY516",
+					dim: 0,
+					time: 1621409094416L,
+					uuid: "9b58a8e3-264d-4a27-b537-5db3821c3b7b",
+					items: [{
+						stacksize: 1,
+						meta: 5,
+						name: "ebwizardry:magic_wand"
+					},
+					{
+						stacksize: 1,
+						meta: 2,
+						name: "usefulbackpacks:backpack"
+					},
+					{
+						stacksize: 1,
+						meta: 2,
+						name: "usefulbackpacks:backpack"
+					},
+					{
+						stacksize: 1,
+						meta: 14,
+						name: "minecraft:shield"
+					},
+					{
+						stacksize: 1,
+						meta: 422,
+						name: "minecraft:diamond_boots"
+					},
+					{
+						stacksize: 1,
+						meta: 121,
+						name: "minecraft:chainmail_leggings"
+					},
+					{
+						stacksize: 1,
+						meta: 15,
+						name: "minecraft:diamond_chestplate"
+					},
+					{
+						stacksize: 1,
+						meta: 21,
+						name: "minecraft:diamond_helmet"
+					},
+					{
+						stacksize: 1,
+						meta: 0,
+						name: "bountifulbaubles:trinketballoon"
+					},
+					{
+						stacksize: 1,
+						meta: 0,
+						name: "bountifulbaubles:trinketmagiclenses"
+					},
+					{
+						stacksize: 1,
+						meta: 240,
+						name: "ebwizardry:sage_robe_fire"
+					},
+					{
+						stacksize: 1,
+						meta: 32767,
+						name: "ebwizardry:warlock_hood_necromancy"
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8cd03b49",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

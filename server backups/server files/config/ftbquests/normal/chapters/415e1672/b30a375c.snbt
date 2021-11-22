@@ -1,0 +1,37 @@
+{
+	title: "new best friend",
+	x: -6.5d,
+	y: -5.0d,
+	shape: "hexagon",
+	dependencies: [
+		"7813b49d"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 1.25d,
+	tasks: [{
+		uid: "db7028a0",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "37fe0388",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "438d84a6",
+		type: "item",
+		item: "minecraft:log",
+		count: 24
+	},
+	{
+		uid: "2e8d1d76",
+		type: "item",
+		item: "minecraft:wool",
+		count: 3
+	}]
+}

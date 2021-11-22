@@ -1,0 +1,32 @@
+{
+	x: -7.0d,
+	y: -3.0d,
+	dependencies: [
+		"a18ec577",
+		"420295c8"
+	],
+	tasks: [{
+		uid: "9a322fb6",
+		type: "item",
+		items: [{
+			item: "tconstruct:ingots"
+		}],
+		count: 64L
+	},
+	{
+		uid: "df7eca68",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot 1 6"
+		}],
+		count: 64L
+	},
+	{
+		uid: "31daaac4",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot 1 1"
+		}],
+		count: 64L
+	}]
+}

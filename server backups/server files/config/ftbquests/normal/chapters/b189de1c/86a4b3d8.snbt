@@ -1,0 +1,28 @@
+{
+	x: 2.0d,
+	y: -4.0d,
+	dependencies: [
+		"459c15ea"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "637c45a1",
+		type: "item",
+		items: [{
+			item: "ebwizardry:large_mana_flask"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "f8309f29",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "8184c3ba",
+		type: "item",
+		item: "lootbags:itemlootbag 1 1"
+	}]
+}

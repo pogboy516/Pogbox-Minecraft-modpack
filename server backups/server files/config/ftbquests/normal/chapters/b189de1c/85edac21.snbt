@@ -1,0 +1,29 @@
+{
+	x: 3.5d,
+	y: -3.0d,
+	dependencies: [
+		"790d4f9e"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "94433b75",
+		type: "item",
+		items: [{
+			item: "ebwizardry:novice_fire_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: false
+	}],
+	rewards: [{
+		uid: "53535da1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "33d89963",
+		type: "loot",
+		table: 12
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "Upgrade your smelter",
+	x: 5.5d,
+	y: -5.0d,
+	dependencies: [
+		"76c1d22d"
+	],
+	tasks: [{
+		uid: "367c4780",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared 1 3"
+		}],
+		count: 64L
+	}]
+}

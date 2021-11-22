@@ -1,0 +1,28 @@
+{
+	x: -1.0d,
+	y: -3.0d,
+	dependencies: [
+		"21f7b1e6",
+		"8a821abd"
+	],
+	tasks: [{
+		uid: "e3d47492",
+		type: "item",
+		items: [{
+			item: "ebwizardry:apprentice_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: false
+	}],
+	rewards: [{
+		uid: "475da7c1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "1488a5e0",
+		type: "choice",
+		table: 5
+	}]
+}

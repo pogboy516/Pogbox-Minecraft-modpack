@@ -1,0 +1,15 @@
+{
+	title: "Fight magic with magic",
+	x: -2.0d,
+	y: -5.0d,
+	dependencies: [
+		"21f7b1e6"
+	],
+	tasks: [{
+		uid: "ab220e5a",
+		type: "kill",
+		icon: "ebwizardry:wizard_hat",
+		entity: "ebwizardry:wizard",
+		value: 30L
+	}]
+}

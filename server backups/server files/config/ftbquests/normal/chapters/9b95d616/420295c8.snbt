@@ -1,0 +1,16 @@
+{
+	icon: "minecraft:skull 1 5",
+	x: -8.5d,
+	y: -4.0d,
+	dependencies: [
+		"d1e08120"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "3cf6341b",
+		type: "kill",
+		entity: "minecraft:ender_dragon",
+		value: 1L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -6.5d,
+	y: -0.5d,
+	dependencies: [
+		"c1a0c6f0"
+	],
+	tasks: [{
+		uid: "34810ebf",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "df6d58ce",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

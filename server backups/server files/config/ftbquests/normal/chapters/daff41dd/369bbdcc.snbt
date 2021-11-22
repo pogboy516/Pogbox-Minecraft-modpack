@@ -1,0 +1,37 @@
+{
+	x: -4.0d,
+	y: -3.5d,
+	dependencies: [
+		"866c8517"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "0053312a",
+		type: "kill",
+		entity: "minecraft:zombie",
+		value: 10L
+	},
+	{
+		uid: "e7554ef5",
+		type: "kill",
+		entity: "minecraft:skeleton",
+		value: 10L
+	},
+	{
+		uid: "f3cad82b",
+		type: "kill",
+		entity: "minecraft:spider",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "2739909c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "52b90440",
+		type: "item",
+		item: "lootbags:itemlootbag 1 1"
+	}]
+}

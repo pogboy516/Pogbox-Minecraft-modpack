@@ -1,0 +1,17 @@
+{
+	title: "now i want levels",
+	x: -0.5d,
+	y: -0.5d,
+	dependencies: [
+		"af898e80",
+		"37784cbe"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "2d5631f0",
+		type: "xp",
+		value: 30L,
+		points: false
+	}]
+}

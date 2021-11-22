@@ -1,0 +1,22 @@
+{
+	title: "Space zombie hunt!",
+	x: -2.5d,
+	y: -2.0d,
+	dependencies: [
+		"3d4f7e72",
+		"9c21aeaa"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "b755bfee",
+		type: "kill",
+		entity: "galacticraftcore:evolved_zombie",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "5b9758aa",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

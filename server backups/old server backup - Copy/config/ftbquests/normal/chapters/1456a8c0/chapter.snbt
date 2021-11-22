@@ -1,7 +1,0 @@
-{
-	title: "BLOOD FOR THE BLOOD GOD!",
-	icon: "tconstruct:edible 1 33",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

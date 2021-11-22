@@ -1,0 +1,76 @@
+{
+	title: "Create your power suit",
+	x: -1.0d,
+	y: 1.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"d9369364"
+	],
+	tasks: [{
+		uid: "d0eb851d",
+		type: "item",
+		items: [{
+			id: "powersuits:powerarmor_head",
+			tag: {
+				MMModItem: {
+					commonValues: {}
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1a5d53af",
+		type: "item",
+		items: [{
+			id: "powersuits:powerarmor_torso",
+			tag: {
+				MMModItem: {
+					commonValues: {}
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "211ea230",
+		type: "item",
+		items: [{
+			id: "powersuits:powerarmor_legs",
+			tag: {
+				MMModItem: {
+					commonValues: {}
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ac105cbf",
+		type: "item",
+		items: [{
+			id: "powersuits:powerarmor_feet",
+			tag: {
+				MMModItem: {
+					commonValues: {}
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ee82ea0b",
+		type: "item",
+		item: "powersuits:powerarmorcomponent 1 5"
+	},
+	{
+		uid: "d2fd8c4c",
+		type: "ftbmoney:money",
+		ftb_money: 50L,
+		random_bonus: 50
+	}]
+}

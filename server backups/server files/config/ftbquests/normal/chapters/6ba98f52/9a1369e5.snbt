@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"d9369364"
+	],
+	tasks: [{
+		uid: "d12c9e02",
+		type: "item",
+		items: [{
+			item: "powersuits:tinkertable"
+		}]
+	}]
+}

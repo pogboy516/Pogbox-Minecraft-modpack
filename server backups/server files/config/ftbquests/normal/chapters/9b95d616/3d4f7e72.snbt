@@ -1,0 +1,43 @@
+{
+	title: "End stone, Ender eyes and wither skulls.",
+	x: -4.0d,
+	y: -1.0d,
+	dependencies: [
+		"5faa6c31",
+		"539f1a70"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "7ed55810",
+		type: "item",
+		items: [{
+			item: "minecraft:end_stone"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "b1024b24",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_pearl"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "6c3dab35",
+		type: "item",
+		items: [{
+			item: "minecraft:skull 1 1"
+		}],
+		count: 3L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "c8f2a034",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

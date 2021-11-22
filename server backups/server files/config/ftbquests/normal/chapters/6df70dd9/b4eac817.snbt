@@ -1,0 +1,26 @@
+{
+	x: 1.5d,
+	y: -4.5d,
+	dependencies: [
+		"5f653e11"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "c2b16186",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutsawmill"
+		}]
+	}],
+	rewards: [{
+		uid: "831a2716",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "5085ea76",
+		type: "random",
+		table: 6
+	}]
+}

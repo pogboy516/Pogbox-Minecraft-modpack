@@ -1,0 +1,30 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"d5587fa5"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "2eb7d834",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutfield"
+		}],
+		only_from_crafting: true
+	},
+	{
+		uid: "3ed8ea65",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutfarmer"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "11d8c346",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

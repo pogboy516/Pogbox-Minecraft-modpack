@@ -1,0 +1,62 @@
+{
+	title: "better be prepared",
+	x: -7.0d,
+	y: -5.0d,
+	dependencies: [
+		"224d7b71"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "e283c247",
+		type: "item",
+		items: [{
+			item: "minecraft:torch"
+		}],
+		count: 64L
+	},
+	{
+		uid: "e4d5c48a",
+		type: "item",
+		items: [{
+			item: "minecraft:bread"
+		}],
+		count: 24L
+	},
+	{
+		uid: "bd3bf99a",
+		type: "item",
+		items: [{
+			item: "minecraft:boat"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "062e5b31",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bec1f320",
+		type: "item",
+		items: [{
+			item: "comforts:sleeping_bag"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "04ebc760",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ee31fab3",
+		type: "random",
+		table: 3
+	}]
+}

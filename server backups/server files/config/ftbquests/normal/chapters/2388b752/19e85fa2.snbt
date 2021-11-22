@@ -1,0 +1,36 @@
+{
+	x: 10.0d,
+	y: -1.5d,
+	dependencies: [
+		"d5f50d7c"
+	],
+	tasks: [{
+		uid: "f35f02af",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		count: 320L
+	},
+	{
+		uid: "d18ccde0",
+		type: "item",
+		items: [{
+			item: "minecraft:stone 1 1"
+		}],
+		count: 128L
+	}],
+	rewards: [{
+		uid: "e73f7cbe",
+		type: "ftbmoney:money",
+		ftb_money: 50L,
+		random_bonus: 50
+	},
+	{
+		uid: "7598c269",
+		type: "item",
+		item: "minecraft:torch",
+		count: 64,
+		random_bonus: 64
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "Back to sender",
+	x: -2.0d,
+	y: -3.5d,
+	dependencies: [
+		"bc815783",
+		"5faa6c31"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "052f3e88",
+		type: "kill",
+		entity: "minecraft:ghast",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "2e34a496",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

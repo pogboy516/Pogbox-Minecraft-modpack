@@ -1,0 +1,26 @@
+{
+	x: 3.5d,
+	y: -2.5d,
+	shape: "hexagon",
+	dependencies: [
+		"88912521"
+	],
+	tasks: [{
+		uid: "183174cd",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials"
+		}],
+		only_from_crafting: false
+	}],
+	rewards: [{
+		uid: "915a16bd",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "3137337c",
+		type: "item",
+		item: "lootbags:itemlootbag"
+	}]
+}
